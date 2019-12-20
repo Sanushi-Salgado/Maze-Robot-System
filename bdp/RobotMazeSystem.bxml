@@ -1,0 +1,24 @@
+<Machine name='RobotMazeSystem' type='abstraction'>
+<Extends>
+<Attr>
+<Pos l='7' c='1' s='7'/>
+</Attr>
+<Referenced_Machine>
+<Attr>
+<Pos l='7' c='9' s='4'/>
+</Attr>
+<Name>Maze</Name>
+</Referenced_Machine>
+<Referenced_Machine>
+<Attr>
+<Pos l='7' c='15' s='5'/>
+</Attr>
+<Name>Robot</Name>
+</Referenced_Machine>
+</Extends>
+<Initialisation>
+<Skip/>
+</Initialisation>
+<TypeInfos/>
+
+</Machine>

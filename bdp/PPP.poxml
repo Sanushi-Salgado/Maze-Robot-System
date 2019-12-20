@@ -1,0 +1,5497 @@
+<Proof_Obligations>
+<Define name="B definitions">
+<Nary_Pred op="&amp;">
+<Exp_Comparison op="=">
+<Id value="NAT"/>
+<Binary_Exp op="..">
+<Integer_Literal value="0"/>
+<Id value="MAXINT"/>
+</Binary_Exp>
+</Exp_Comparison>
+<Exp_Comparison op="=">
+<Id value="INT"/>
+<Binary_Exp op="..">
+<Id value="MININT"/>
+<Id value="MAXINT"/>
+</Binary_Exp>
+</Exp_Comparison>
+</Nary_Pred>
+</Define>
+<Define name="ctx">
+<Attr>
+<Pos l="11" c="1" s="10"/>
+</Attr>
+<Nary_Pred op="&amp;">
+<Exp_Comparison op=":">
+<Attr>
+<Pos l="12" c="10" s="1"/>
+</Attr>
+<Id value="maze" tag="D:/Workspaces/B_Specifications/Robot_Maze_System/bdp\PP.bxml:1:2:1:1:1" typref="103245008">
+<Attr>
+<Pos l="12" c="5" s="4"/>
+</Attr>
+</Id>
+<Binary_Exp typref="3083833907" op="&lt;-&gt;">
+<Attr>
+<Pos l="12" c="17" s="3"/>
+</Attr>
+<Id value="NAT1" tag="D:/Workspaces/B_Specifications/Robot_Maze_System/bdp\PP.bxml:1:2:1:1:2:1" typref="3603043417">
+<Attr>
+<Pos l="12" c="12" s="4"/>
+</Attr>
+</Id>
+<Id value="NAT1" tag="D:/Workspaces/B_Specifications/Robot_Maze_System/bdp\PP.bxml:1:2:1:1:2:2" typref="3603043417">
+<Attr>
+<Pos l="12" c="21" s="4"/>
+</Attr>
+</Id>
+</Binary_Exp>
+</Exp_Comparison>
+<Exp_Comparison op="&lt;:">
+<Attr>
+<Pos l="14" c="11" s="2"/>
+</Attr>
+<Id value="walls" tag="D:/Workspaces/B_Specifications/Robot_Maze_System/bdp\PP.bxml:1:2:1:2:1" typref="103245008">
+<Attr>
+<Pos l="14" c="5" s="5"/>
+</Attr>
+</Id>
+<Id value="maze" tag="D:/Workspaces/B_Specifications/Robot_Maze_System/bdp\PP.bxml:1:2:1:2:2" typref="103245008">
+<Attr>
+<Pos l="14" c="14" s="4"/>
+</Attr>
+</Id>
+</Exp_Comparison>
+<Exp_Comparison op=":">
+<Attr>
+<Pos l="16" c="10" s="1"/>
+</Attr>
+<Id value="exit" tag="D:/Workspaces/B_Specifications/Robot_Maze_System/bdp\PP.bxml:1:2:1:3:1" typref="3672872563">
+<Attr>
+<Pos l="16" c="5" s="4"/>
+</Attr>
+</Id>
+<Id value="maze" tag="D:/Workspaces/B_Specifications/Robot_Maze_System/bdp\PP.bxml:1:2:1:3:2" typref="103245008">
+<Attr>
+<Pos l="16" c="12" s="4"/>
+</Attr>
+</Id>
+</Exp_Comparison>
+<Exp_Comparison op=":">
+<Attr>
+<Pos l="18" c="11" s="1"/>
+</Attr>
+<Id value="width" tag="D:/Workspaces/B_Specifications/Robot_Maze_System/bdp\PP.bxml:1:2:1:4:1" typref="2701647786">
+<Attr>
+<Pos l="18" c="5" s="5"/>
+</Attr>
+</Id>
+<Id value="NATURAL1" tag="D:/Workspaces/B_Specifications/Robot_Maze_System/bdp\PP.bxml:1:2:1:4:2" typref="3603043417">
+<Attr>
+<Pos l="18" c="13" s="8"/>
+</Attr>
+</Id>
+</Exp_Comparison>
+<Exp_Comparison op=":">
+<Attr>
+<Pos l="20" c="12" s="1"/>
+</Attr>
+<Id value="height" tag="D:/Workspaces/B_Specifications/Robot_Maze_System/bdp\PP.bxml:1:2:1:5:1" typref="2701647786">
+<Attr>
+<Pos l="20" c="5" s="6"/>
+</Attr>
+</Id>
+<Id value="NATURAL1" tag="D:/Workspaces/B_Specifications/Robot_Maze_System/bdp\PP.bxml:1:2:1:5:2" typref="3603043417">
+<Attr>
+<Pos l="20" c="14" s="8"/>
+</Attr>
+</Id>
+</Exp_Comparison>
+<Exp_Comparison op="=">
+<Attr>
+<Pos l="22" c="11" s="1"/>
+</Attr>
+<Id value="width" tag="D:/Workspaces/B_Specifications/Robot_Maze_System/bdp\PP.bxml:1:2:1:6:1" typref="2701647786">
+<Attr>
+<Pos l="22" c="5" s="5"/>
+</Attr>
+</Id>
+<Integer_Literal value="7" tag="D:/Workspaces/B_Specifications/Robot_Maze_System/bdp\PP.bxml:1:2:1:6:2" typref="2701647786">
+<Attr>
+<Pos l="22" c="13" s="1"/>
+</Attr>
+</Integer_Literal>
+</Exp_Comparison>
+<Exp_Comparison op="=">
+<Attr>
+<Pos l="24" c="12" s="1"/>
+</Attr>
+<Id value="height" tag="D:/Workspaces/B_Specifications/Robot_Maze_System/bdp\PP.bxml:1:2:1:7:1" typref="2701647786">
+<Attr>
+<Pos l="24" c="5" s="6"/>
+</Attr>
+</Id>
+<Integer_Literal value="5" tag="D:/Workspaces/B_Specifications/Robot_Maze_System/bdp\PP.bxml:1:2:1:7:2" typref="2701647786">
+<Attr>
+<Pos l="24" c="14" s="1"/>
+</Attr>
+</Integer_Literal>
+</Exp_Comparison>
+<Exp_Comparison op="=">
+<Attr>
+<Pos l="26" c="10" s="1"/>
+</Attr>
+<Id value="maze" tag="D:/Workspaces/B_Specifications/Robot_Maze_System/bdp\PP.bxml:1:2:1:8:1" typref="103245008">
+<Attr>
+<Pos l="26" c="5" s="4"/>
+</Attr>
+</Id>
+<Binary_Exp typref="103245008" op="*">
+<Attr>
+<Pos l="26" c="25" s="1"/>
+</Attr>
+<Binary_Exp typref="3603043417" op="..">
+<Attr>
+<Pos l="26" c="15" s="2"/>
+</Attr>
+<Integer_Literal value="1" tag="D:/Workspaces/B_Specifications/Robot_Maze_System/bdp\PP.bxml:1:2:1:8:2:1:1" typref="2701647786">
+<Attr>
+<Pos l="26" c="13" s="1"/>
+</Attr>
+</Integer_Literal>
+<Id value="width" tag="D:/Workspaces/B_Specifications/Robot_Maze_System/bdp\PP.bxml:1:2:1:8:2:1:2" typref="2701647786">
+<Attr>
+<Pos l="26" c="18" s="5"/>
+</Attr>
+</Id>
+</Binary_Exp>
+<Binary_Exp typref="3603043417" op="..">
+<Attr>
+<Pos l="26" c="30" s="2"/>
+</Attr>
+<Integer_Literal value="1" tag="D:/Workspaces/B_Specifications/Robot_Maze_System/bdp\PP.bxml:1:2:1:8:2:2:1" typref="2701647786">
+<Attr>
+<Pos l="26" c="28" s="1"/>
+</Attr>
+</Integer_Literal>
+<Id value="height" tag="D:/Workspaces/B_Specifications/Robot_Maze_System/bdp\PP.bxml:1:2:1:8:2:2:2" typref="2701647786">
+<Attr>
+<Pos l="26" c="33" s="6"/>
+</Attr>
+</Id>
+</Binary_Exp>
+</Binary_Exp>
+</Exp_Comparison>
+<Exp_Comparison op="=">
+<Attr>
+<Pos l="28" c="11" s="1"/>
+</Attr>
+<Id value="walls" tag="D:/Workspaces/B_Specifications/Robot_Maze_System/bdp\PP.bxml:1:2:1:9:1" typref="103245008">
+<Attr>
+<Pos l="28" c="5" s="5"/>
+</Attr>
+</Id>
+<Nary_Exp typref="103245008" op="{">
+<Attr>
+<Pos l="28" c="13" s="1"/>
+</Attr>
+<Binary_Exp typref="3672872563" op="|-&gt;">
+<Attr>
+<Pos l="28" c="17" s="3"/>
+</Attr>
+<Integer_Literal value="1" tag="D:/Workspaces/B_Specifications/Robot_Maze_System/bdp\PP.bxml:1:2:1:9:2:1:1" typref="2701647786">
+<Attr>
+<Pos l="28" c="15" s="1"/>
+</Attr>
+</Integer_Literal>
+<Integer_Literal value="3" tag="D:/Workspaces/B_Specifications/Robot_Maze_System/bdp\PP.bxml:1:2:1:9:2:1:2" typref="2701647786">
+<Attr>
+<Pos l="28" c="20" s="1"/>
+</Attr>
+</Integer_Literal>
+</Binary_Exp>
+<Binary_Exp typref="3672872563" op="|-&gt;">
+<Attr>
+<Pos l="28" c="28" s="3"/>
+</Attr>
+<Integer_Literal value="2" tag="D:/Workspaces/B_Specifications/Robot_Maze_System/bdp\PP.bxml:1:2:1:9:2:2:1" typref="2701647786">
+<Attr>
+<Pos l="28" c="26" s="1"/>
+</Attr>
+</Integer_Literal>
+<Integer_Literal value="1" tag="D:/Workspaces/B_Specifications/Robot_Maze_System/bdp\PP.bxml:1:2:1:9:2:2:2" typref="2701647786">
+<Attr>
+<Pos l="28" c="31" s="1"/>
+</Attr>
+</Integer_Literal>
+</Binary_Exp>
+<Binary_Exp typref="3672872563" op="|-&gt;">
+<Attr>
+<Pos l="28" c="38" s="3"/>
+</Attr>
+<Integer_Literal value="2" tag="D:/Workspaces/B_Specifications/Robot_Maze_System/bdp\PP.bxml:1:2:1:9:2:3:1" typref="2701647786">
+<Attr>
+<Pos l="28" c="36" s="1"/>
+</Attr>
+</Integer_Literal>
+<Integer_Literal value="3" tag="D:/Workspaces/B_Specifications/Robot_Maze_System/bdp\PP.bxml:1:2:1:9:2:3:2" typref="2701647786">
+<Attr>
+<Pos l="28" c="41" s="1"/>
+</Attr>
+</Integer_Literal>
+</Binary_Exp>
+<Binary_Exp typref="3672872563" op="|-&gt;">
+<Attr>
+<Pos l="28" c="48" s="3"/>
+</Attr>
+<Integer_Literal value="2" tag="D:/Workspaces/B_Specifications/Robot_Maze_System/bdp\PP.bxml:1:2:1:9:2:4:1" typref="2701647786">
+<Attr>
+<Pos l="28" c="46" s="1"/>
+</Attr>
+</Integer_Literal>
+<Integer_Literal value="5" tag="D:/Workspaces/B_Specifications/Robot_Maze_System/bdp\PP.bxml:1:2:1:9:2:4:2" typref="2701647786">
+<Attr>
+<Pos l="28" c="51" s="1"/>
+</Attr>
+</Integer_Literal>
+</Binary_Exp>
+<Binary_Exp typref="3672872563" op="|-&gt;">
+<Attr>
+<Pos l="28" c="58" s="3"/>
+</Attr>
+<Integer_Literal value="3" tag="D:/Workspaces/B_Specifications/Robot_Maze_System/bdp\PP.bxml:1:2:1:9:2:5:1" typref="2701647786">
+<Attr>
+<Pos l="28" c="56" s="1"/>
+</Attr>
+</Integer_Literal>
+<Integer_Literal value="3" tag="D:/Workspaces/B_Specifications/Robot_Maze_System/bdp\PP.bxml:1:2:1:9:2:5:2" typref="2701647786">
+<Attr>
+<Pos l="28" c="61" s="1"/>
+</Attr>
+</Integer_Literal>
+</Binary_Exp>
+<Binary_Exp typref="3672872563" op="|-&gt;">
+<Attr>
+<Pos l="29" c="13" s="3"/>
+</Attr>
+<Integer_Literal value="4" tag="D:/Workspaces/B_Specifications/Robot_Maze_System/bdp\PP.bxml:1:2:1:9:2:6:1" typref="2701647786">
+<Attr>
+<Pos l="29" c="11" s="1"/>
+</Attr>
+</Integer_Literal>
+<Integer_Literal value="2" tag="D:/Workspaces/B_Specifications/Robot_Maze_System/bdp\PP.bxml:1:2:1:9:2:6:2" typref="2701647786">
+<Attr>
+<Pos l="29" c="16" s="1"/>
+</Attr>
+</Integer_Literal>
+</Binary_Exp>
+<Binary_Exp typref="3672872563" op="|-&gt;">
+<Attr>
+<Pos l="29" c="22" s="3"/>
+</Attr>
+<Integer_Literal value="4" tag="D:/Workspaces/B_Specifications/Robot_Maze_System/bdp\PP.bxml:1:2:1:9:2:7:1" typref="2701647786">
+<Attr>
+<Pos l="29" c="21" s="1"/>
+</Attr>
+</Integer_Literal>
+<Integer_Literal value="3" tag="D:/Workspaces/B_Specifications/Robot_Maze_System/bdp\PP.bxml:1:2:1:9:2:7:2" typref="2701647786">
+<Attr>
+<Pos l="29" c="25" s="1"/>
+</Attr>
+</Integer_Literal>
+</Binary_Exp>
+<Binary_Exp typref="3672872563" op="|-&gt;">
+<Attr>
+<Pos l="29" c="32" s="3"/>
+</Attr>
+<Integer_Literal value="4" tag="D:/Workspaces/B_Specifications/Robot_Maze_System/bdp\PP.bxml:1:2:1:9:2:8:1" typref="2701647786">
+<Attr>
+<Pos l="29" c="30" s="1"/>
+</Attr>
+</Integer_Literal>
+<Integer_Literal value="4" tag="D:/Workspaces/B_Specifications/Robot_Maze_System/bdp\PP.bxml:1:2:1:9:2:8:2" typref="2701647786">
+<Attr>
+<Pos l="29" c="35" s="1"/>
+</Attr>
+</Integer_Literal>
+</Binary_Exp>
+<Binary_Exp typref="3672872563" op="|-&gt;">
+<Attr>
+<Pos l="29" c="42" s="3"/>
+</Attr>
+<Integer_Literal value="6" tag="D:/Workspaces/B_Specifications/Robot_Maze_System/bdp\PP.bxml:1:2:1:9:2:9:1" typref="2701647786">
+<Attr>
+<Pos l="29" c="40" s="1"/>
+</Attr>
+</Integer_Literal>
+<Integer_Literal value="1" tag="D:/Workspaces/B_Specifications/Robot_Maze_System/bdp\PP.bxml:1:2:1:9:2:9:2" typref="2701647786">
+<Attr>
+<Pos l="29" c="45" s="1"/>
+</Attr>
+</Integer_Literal>
+</Binary_Exp>
+<Binary_Exp typref="3672872563" op="|-&gt;">
+<Attr>
+<Pos l="29" c="52" s="3"/>
+</Attr>
+<Integer_Literal value="6" tag="D:/Workspaces/B_Specifications/Robot_Maze_System/bdp\PP.bxml:1:2:1:9:2:10:1" typref="2701647786">
+<Attr>
+<Pos l="29" c="50" s="1"/>
+</Attr>
+</Integer_Literal>
+<Integer_Literal value="2" tag="D:/Workspaces/B_Specifications/Robot_Maze_System/bdp\PP.bxml:1:2:1:9:2:10:2" typref="2701647786">
+<Attr>
+<Pos l="29" c="55" s="1"/>
+</Attr>
+</Integer_Literal>
+</Binary_Exp>
+<Binary_Exp typref="3672872563" op="|-&gt;">
+<Attr>
+<Pos l="30" c="13" s="3"/>
+</Attr>
+<Integer_Literal value="6" tag="D:/Workspaces/B_Specifications/Robot_Maze_System/bdp\PP.bxml:1:2:1:9:2:11:1" typref="2701647786">
+<Attr>
+<Pos l="30" c="11" s="1"/>
+</Attr>
+</Integer_Literal>
+<Integer_Literal value="4" tag="D:/Workspaces/B_Specifications/Robot_Maze_System/bdp\PP.bxml:1:2:1:9:2:11:2" typref="2701647786">
+<Attr>
+<Pos l="30" c="16" s="1"/>
+</Attr>
+</Integer_Literal>
+</Binary_Exp>
+<Binary_Exp typref="3672872563" op="|-&gt;">
+<Attr>
+<Pos l="30" c="23" s="3"/>
+</Attr>
+<Integer_Literal value="7" tag="D:/Workspaces/B_Specifications/Robot_Maze_System/bdp\PP.bxml:1:2:1:9:2:12:1" typref="2701647786">
+<Attr>
+<Pos l="30" c="21" s="1"/>
+</Attr>
+</Integer_Literal>
+<Integer_Literal value="4" tag="D:/Workspaces/B_Specifications/Robot_Maze_System/bdp\PP.bxml:1:2:1:9:2:12:2" typref="2701647786">
+<Attr>
+<Pos l="30" c="26" s="1"/>
+</Attr>
+</Integer_Literal>
+</Binary_Exp>
+</Nary_Exp>
+</Exp_Comparison>
+<Exp_Comparison op="=">
+<Attr>
+<Pos l="32" c="10" s="1"/>
+</Attr>
+<Id value="exit" tag="D:/Workspaces/B_Specifications/Robot_Maze_System/bdp\PP.bxml:1:2:1:10:1" typref="3672872563">
+<Attr>
+<Pos l="32" c="5" s="4"/>
+</Attr>
+</Id>
+<Binary_Exp typref="3672872563" op="|-&gt;">
+<Attr>
+<Pos l="32" c="14" s="3"/>
+</Attr>
+<Integer_Literal value="1" tag="D:/Workspaces/B_Specifications/Robot_Maze_System/bdp\PP.bxml:1:2:1:10:2:1" typref="2701647786">
+<Attr>
+<Pos l="32" c="12" s="1"/>
+</Attr>
+</Integer_Literal>
+<Integer_Literal value="5" tag="D:/Workspaces/B_Specifications/Robot_Maze_System/bdp\PP.bxml:1:2:1:10:2:2" typref="2701647786">
+<Attr>
+<Pos l="32" c="17" s="1"/>
+</Attr>
+</Integer_Literal>
+</Binary_Exp>
+</Exp_Comparison>
+</Nary_Pred>
+</Define>
+<Define name="seext"/>
+<Define name="lprp">
+<Attr>
+<Pos l="11" c="1" s="4"/>
+</Attr>
+<Set>
+<Id value="STATES" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:2:1:1" typref="1949851095">
+<Attr>
+<Pos l="12" c="5" s="6"/>
+</Attr>
+</Id>
+<Enumerated_Values>
+<Id value="FAILED_WALL" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:2:1:2:1" typref="1193619202">
+<Attr>
+<Pos l="12" c="16" s="11"/>
+</Attr>
+</Id>
+<Id value="FAILED_MAZE_BOUNDARY" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:2:1:2:2" typref="1193619202">
+<Attr>
+<Pos l="12" c="29" s="20"/>
+</Attr>
+</Id>
+<Id value="FAILED_FIRST_MOVE" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:2:1:2:3" typref="1193619202">
+<Attr>
+<Pos l="13" c="9" s="17"/>
+</Attr>
+</Id>
+<Id value="MOVE_SUCCESS" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:2:1:2:4" typref="1193619202">
+<Attr>
+<Pos l="13" c="28" s="12"/>
+</Attr>
+</Id>
+<Id value="YES" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:2:1:2:5" typref="1193619202">
+<Attr>
+<Pos l="13" c="42" s="3"/>
+</Attr>
+</Id>
+<Id value="NO" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:2:1:2:6" typref="1193619202">
+<Attr>
+<Pos l="13" c="47" s="2"/>
+</Attr>
+</Id>
+</Enumerated_Values>
+</Set>
+</Define>
+<Define name="inprp"/>
+<Define name="inext"/>
+<Define name="inv">
+<Attr>
+<Pos l="25" c="1" s="9"/>
+</Attr>
+<Nary_Pred op="&amp;">
+<Exp_Comparison initialTag="((xx) : ((NAT-{0})))" op=":">
+<Attr>
+<Pos l="26" c="8" s="1"/>
+</Attr>
+<Id value="xx" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:4:1:1:1" typref="2701647786">
+<Attr>
+<Pos l="26" c="5" s="2"/>
+</Attr>
+</Id>
+<Id value="NAT1" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:4:1:1:2" typref="3603043417">
+<Attr>
+<Pos l="26" c="10" s="4"/>
+</Attr>
+</Id>
+</Exp_Comparison>
+<Exp_Comparison initialTag="((yy) : ((NAT-{0})))" op=":">
+<Attr>
+<Pos l="26" c="20" s="1"/>
+</Attr>
+<Id value="yy" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:4:1:2:1" typref="2701647786">
+<Attr>
+<Pos l="26" c="17" s="2"/>
+</Attr>
+</Id>
+<Id value="NAT1" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:4:1:2:2" typref="3603043417">
+<Attr>
+<Pos l="26" c="22" s="4"/>
+</Attr>
+</Id>
+</Exp_Comparison>
+<Exp_Comparison initialTag="(xx &lt;= width)" op="&lt;=">
+<Attr>
+<Pos l="26" c="32" s="2"/>
+</Attr>
+<Id value="xx" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:4:1:3:1" typref="2701647786">
+<Attr>
+<Pos l="26" c="29" s="2"/>
+</Attr>
+</Id>
+<Id value="width" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:4:1:3:2" typref="2701647786">
+<Attr>
+<Pos l="26" c="35" s="5"/>
+</Attr>
+</Id>
+</Exp_Comparison>
+<Exp_Comparison initialTag="(yy &lt;= height)" op="&lt;=">
+<Attr>
+<Pos l="26" c="46" s="2"/>
+</Attr>
+<Id value="yy" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:4:1:4:1" typref="2701647786">
+<Attr>
+<Pos l="26" c="43" s="2"/>
+</Attr>
+</Id>
+<Id value="height" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:4:1:4:2" typref="2701647786">
+<Attr>
+<Pos l="26" c="50" s="6"/>
+</Attr>
+</Id>
+</Exp_Comparison>
+<Exp_Comparison initialTag="((route) : (seq(maze)))" op=":">
+<Attr>
+<Pos l="26" c="65" s="1"/>
+</Attr>
+<Id value="route" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:4:1:5:1" typref="1905100487">
+<Attr>
+<Pos l="26" c="59" s="5"/>
+</Attr>
+</Id>
+<Unary_Exp typref="1382780156" op="seq">
+<Attr>
+<Pos l="26" c="67" s="3"/>
+</Attr>
+<Id value="maze" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:4:1:5:2:1" typref="103245008">
+<Attr>
+<Pos l="26" c="71" s="4"/>
+</Attr>
+</Id>
+</Unary_Exp>
+</Exp_Comparison>
+</Nary_Pred>
+</Define>
+<Define name="ass"/>
+<Define name="cst"/>
+<Proof_Obligation>
+<Comment>Initialisation dans une machine abstraite</Comment>
+<Tag>Initialisation</Tag>
+<Tag>Invariant</Tag>
+<Definition name="B definitions"/>
+<Definition name="ctx"/>
+<Definition name="cst"/>
+<Definition name="lprp"/>
+<Definition name="inprp"/>
+<Definition name="inext"/>
+<Definition name="seext"/>
+<Goal>
+<Sub_Calculus>
+<Nary_Sub op=";">
+<Attr>
+<Pos l="28" c="1" s="14"/>
+</Attr>
+<Simple_Assignement_Sub>
+<Variables>
+<Id value="xx" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:5:1:1:1" typref="2701647786">
+<Attr>
+<Pos l="29" c="5" s="2"/>
+</Attr>
+</Id>
+<Id value="yy" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:5:1:1:2" typref="2701647786">
+<Attr>
+<Pos l="29" c="9" s="2"/>
+</Attr>
+</Id>
+<Id value="route" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:5:1:1:3" typref="1905100487">
+<Attr>
+<Pos l="29" c="13" s="5"/>
+</Attr>
+</Id>
+</Variables>
+<Values>
+<Integer_Literal value="1" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:5:1:2:1" typref="2701647786">
+<Attr>
+<Pos l="29" c="5" s="2"/>
+</Attr>
+</Integer_Literal>
+<Integer_Literal value="1" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:5:1:2:2" typref="2701647786">
+<Attr>
+<Pos l="29" c="9" s="2"/>
+</Attr>
+</Integer_Literal>
+<EmptySeq tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:5:1:2:3" typref="1905100487">
+<Attr>
+<Pos l="29" c="13" s="5"/>
+</Attr>
+</EmptySeq>
+</Values>
+</Simple_Assignement_Sub>
+</Nary_Sub>
+<Binary_Pred op="=&gt;">
+<Nary_Pred op="&amp;"/>
+<Tag goalTag="Invariant is preserved">
+<Nary_Pred op="&amp;">
+<Attr>
+<Pos l="25" c="1" s="9"/>
+</Attr>
+<Nary_Pred op="&amp;">
+<Exp_Comparison initialTag="((xx) : ((NAT-{0})))" op=":">
+<Attr>
+<Pos l="26" c="8" s="1"/>
+</Attr>
+<Id value="xx" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:4:1:1:1" typref="2701647786">
+<Attr>
+<Pos l="26" c="5" s="2"/>
+</Attr>
+</Id>
+<Id value="NAT1" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:4:1:1:2" typref="3603043417">
+<Attr>
+<Pos l="26" c="10" s="4"/>
+</Attr>
+</Id>
+</Exp_Comparison>
+<Exp_Comparison initialTag="((yy) : ((NAT-{0})))" op=":">
+<Attr>
+<Pos l="26" c="20" s="1"/>
+</Attr>
+<Id value="yy" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:4:1:2:1" typref="2701647786">
+<Attr>
+<Pos l="26" c="17" s="2"/>
+</Attr>
+</Id>
+<Id value="NAT1" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:4:1:2:2" typref="3603043417">
+<Attr>
+<Pos l="26" c="22" s="4"/>
+</Attr>
+</Id>
+</Exp_Comparison>
+<Exp_Comparison initialTag="(xx &lt;= width)" op="&lt;=">
+<Attr>
+<Pos l="26" c="32" s="2"/>
+</Attr>
+<Id value="xx" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:4:1:3:1" typref="2701647786">
+<Attr>
+<Pos l="26" c="29" s="2"/>
+</Attr>
+</Id>
+<Id value="width" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:4:1:3:2" typref="2701647786">
+<Attr>
+<Pos l="26" c="35" s="5"/>
+</Attr>
+</Id>
+</Exp_Comparison>
+<Exp_Comparison initialTag="(yy &lt;= height)" op="&lt;=">
+<Attr>
+<Pos l="26" c="46" s="2"/>
+</Attr>
+<Id value="yy" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:4:1:4:1" typref="2701647786">
+<Attr>
+<Pos l="26" c="43" s="2"/>
+</Attr>
+</Id>
+<Id value="height" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:4:1:4:2" typref="2701647786">
+<Attr>
+<Pos l="26" c="50" s="6"/>
+</Attr>
+</Id>
+</Exp_Comparison>
+<Exp_Comparison initialTag="((route) : (seq(maze)))" op=":">
+<Attr>
+<Pos l="26" c="65" s="1"/>
+</Attr>
+<Id value="route" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:4:1:5:1" typref="1905100487">
+<Attr>
+<Pos l="26" c="59" s="5"/>
+</Attr>
+</Id>
+<Unary_Exp typref="1382780156" op="seq">
+<Attr>
+<Pos l="26" c="67" s="3"/>
+</Attr>
+<Id value="maze" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:4:1:5:2:1" typref="103245008">
+<Attr>
+<Pos l="26" c="71" s="4"/>
+</Attr>
+</Id>
+</Unary_Exp>
+</Exp_Comparison>
+</Nary_Pred>
+</Nary_Pred>
+</Tag>
+</Binary_Pred>
+</Sub_Calculus>
+</Goal>
+</Proof_Obligation>
+<Proof_Obligation>
+<Comment>Operations dans une machine abstraite</Comment>
+<Tag>getPosition</Tag>
+<Tag>INVARIANT</Tag>
+<Definition name="B definitions"/>
+<Definition name="ctx"/>
+<Definition name="cst"/>
+<Definition name="lprp"/>
+<Definition name="inprp"/>
+<Definition name="inext"/>
+<Definition name="seext"/>
+<Definition name="inv"/>
+<Definition name="ass"/>
+<Hypothesis/>
+<Goal>
+<Sub_Calculus>
+<Simple_Assignement_Sub>
+<Variables>
+<Id value="position" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:6:1:2:1:1:1" typref="3672872563">
+<Attr>
+<Pos l="36" c="9" s="8"/>
+</Attr>
+</Id>
+</Variables>
+<Values>
+<Binary_Exp typref="3672872563" op="|-&gt;">
+<Attr>
+<Pos l="36" c="9" s="8"/>
+</Attr>
+<Id value="xx" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:6:1:2:1:2:1:1" typref="2701647786">
+<Attr>
+<Pos l="36" c="22" s="2"/>
+</Attr>
+</Id>
+<Id value="yy" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:6:1:2:1:2:1:2" typref="2701647786">
+<Attr>
+<Pos l="36" c="29" s="2"/>
+</Attr>
+</Id>
+</Binary_Exp>
+</Values>
+</Simple_Assignement_Sub>
+<Binary_Pred op="=&gt;">
+<Nary_Pred op="&amp;"/>
+<Tag goalTag="Invariant is preserved">
+<Nary_Pred op="&amp;">
+<Attr>
+<Pos l="25" c="1" s="9"/>
+</Attr>
+<Nary_Pred op="&amp;">
+<Exp_Comparison initialTag="((xx) : ((NAT-{0})))" op=":">
+<Attr>
+<Pos l="26" c="8" s="1"/>
+</Attr>
+<Id value="xx" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:4:1:1:1" typref="2701647786">
+<Attr>
+<Pos l="26" c="5" s="2"/>
+</Attr>
+</Id>
+<Id value="NAT1" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:4:1:1:2" typref="3603043417">
+<Attr>
+<Pos l="26" c="10" s="4"/>
+</Attr>
+</Id>
+</Exp_Comparison>
+<Exp_Comparison initialTag="((yy) : ((NAT-{0})))" op=":">
+<Attr>
+<Pos l="26" c="20" s="1"/>
+</Attr>
+<Id value="yy" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:4:1:2:1" typref="2701647786">
+<Attr>
+<Pos l="26" c="17" s="2"/>
+</Attr>
+</Id>
+<Id value="NAT1" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:4:1:2:2" typref="3603043417">
+<Attr>
+<Pos l="26" c="22" s="4"/>
+</Attr>
+</Id>
+</Exp_Comparison>
+<Exp_Comparison initialTag="(xx &lt;= width)" op="&lt;=">
+<Attr>
+<Pos l="26" c="32" s="2"/>
+</Attr>
+<Id value="xx" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:4:1:3:1" typref="2701647786">
+<Attr>
+<Pos l="26" c="29" s="2"/>
+</Attr>
+</Id>
+<Id value="width" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:4:1:3:2" typref="2701647786">
+<Attr>
+<Pos l="26" c="35" s="5"/>
+</Attr>
+</Id>
+</Exp_Comparison>
+<Exp_Comparison initialTag="(yy &lt;= height)" op="&lt;=">
+<Attr>
+<Pos l="26" c="46" s="2"/>
+</Attr>
+<Id value="yy" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:4:1:4:1" typref="2701647786">
+<Attr>
+<Pos l="26" c="43" s="2"/>
+</Attr>
+</Id>
+<Id value="height" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:4:1:4:2" typref="2701647786">
+<Attr>
+<Pos l="26" c="50" s="6"/>
+</Attr>
+</Id>
+</Exp_Comparison>
+<Exp_Comparison initialTag="((route) : (seq(maze)))" op=":">
+<Attr>
+<Pos l="26" c="65" s="1"/>
+</Attr>
+<Id value="route" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:4:1:5:1" typref="1905100487">
+<Attr>
+<Pos l="26" c="59" s="5"/>
+</Attr>
+</Id>
+<Unary_Exp typref="1382780156" op="seq">
+<Attr>
+<Pos l="26" c="67" s="3"/>
+</Attr>
+<Id value="maze" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:4:1:5:2:1" typref="103245008">
+<Attr>
+<Pos l="26" c="71" s="4"/>
+</Attr>
+</Id>
+</Unary_Exp>
+</Exp_Comparison>
+</Nary_Pred>
+</Nary_Pred>
+</Tag>
+</Binary_Pred>
+</Sub_Calculus>
+</Goal>
+</Proof_Obligation>
+<Proof_Obligation>
+<Comment>Operations dans une machine abstraite</Comment>
+<Tag>MoveNorth</Tag>
+<Tag>INVARIANT</Tag>
+<Definition name="B definitions"/>
+<Definition name="ctx"/>
+<Definition name="cst"/>
+<Definition name="lprp"/>
+<Definition name="inprp"/>
+<Definition name="inext"/>
+<Definition name="seext"/>
+<Definition name="inv"/>
+<Definition name="ass"/>
+<Hypothesis/>
+<Goal>
+<Sub_Calculus>
+<If_Sub elseif="no">
+<Attr>
+<Pos l="44" c="9" s="2"/>
+</Attr>
+<Condition>
+<Exp_Comparison op=":">
+<Attr>
+<Pos l="16" expanded="yes" c="35" s="1"/>
+<Pos l="44" c="14" s="6"/>
+</Attr>
+<Binary_Exp op="|-&gt;">
+<Id value="xx" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:6:2:2:1:1:1:1:1" typref="2701647786">
+<Attr>
+<Pos l="44" expanded="yes" c="22" s="2"/>
+<Pos l="44" c="14" s="6"/>
+</Attr>
+</Id>
+<Binary_Exp typref="2701647786" op="+">
+<Attr>
+<Pos l="44" expanded="yes" c="32" s="1"/>
+<Pos l="44" c="14" s="6"/>
+</Attr>
+<Id value="yy" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:6:2:2:1:1:1:1:2:1" typref="2701647786">
+<Attr>
+<Pos l="44" expanded="yes" c="30" s="2"/>
+<Pos l="44" c="14" s="6"/>
+</Attr>
+</Id>
+<Integer_Literal value="1" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:6:2:2:1:1:1:1:2:2" typref="2701647786">
+<Attr>
+<Pos l="44" expanded="yes" c="33" s="1"/>
+<Pos l="44" c="14" s="6"/>
+</Attr>
+</Integer_Literal>
+</Binary_Exp>
+</Binary_Exp>
+<Id value="walls" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:6:2:2:1:1:1:2" typref="103245008">
+<Attr>
+<Pos l="16" expanded="yes" c="37" s="5"/>
+<Pos l="44" c="14" s="6"/>
+</Attr>
+</Id>
+</Exp_Comparison>
+</Condition>
+<Then>
+<Simple_Assignement_Sub>
+<Variables>
+<Id value="result" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:6:2:2:1:2:1:1:1" typref="1193619202">
+<Attr>
+<Pos l="46" c="13" s="6"/>
+</Attr>
+</Id>
+</Variables>
+<Values>
+<Id value="FAILED_WALL" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:6:2:2:1:2:1:2:1" typref="1193619202">
+<Attr>
+<Pos l="46" c="13" s="6"/>
+</Attr>
+</Id>
+</Values>
+</Simple_Assignement_Sub>
+</Then>
+<Else>
+<If_Sub elseif="yes">
+<Condition>
+<Exp_Comparison op="/:">
+<Attr>
+<Pos l="17" expanded="yes" c="38" s="2"/>
+<Pos l="47" c="16" s="10"/>
+</Attr>
+<Binary_Exp typref="3672872563" op="|-&gt;">
+<Attr>
+<Pos l="47" expanded="yes" c="30" s="3"/>
+<Pos l="47" c="16" s="10"/>
+</Attr>
+<Id value="xx" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:6:2:2:1:3:1:1:1:1:1" typref="2701647786">
+<Attr>
+<Pos l="47" expanded="yes" c="27" s="2"/>
+<Pos l="47" c="16" s="10"/>
+</Attr>
+</Id>
+<Binary_Exp typref="2701647786" op="+">
+<Attr>
+<Pos l="47" expanded="yes" c="37" s="1"/>
+<Pos l="47" c="16" s="10"/>
+</Attr>
+<Id value="yy" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:6:2:2:1:3:1:1:1:1:2:1" typref="2701647786">
+<Attr>
+<Pos l="47" expanded="yes" c="35" s="2"/>
+<Pos l="47" c="16" s="10"/>
+</Attr>
+</Id>
+<Integer_Literal value="1" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:6:2:2:1:3:1:1:1:1:2:2" typref="2701647786">
+<Attr>
+<Pos l="47" expanded="yes" c="38" s="1"/>
+<Pos l="47" c="16" s="10"/>
+</Attr>
+</Integer_Literal>
+</Binary_Exp>
+</Binary_Exp>
+<Id value="maze" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:6:2:2:1:3:1:1:1:2" typref="103245008">
+<Attr>
+<Pos l="17" expanded="yes" c="41" s="4"/>
+<Pos l="47" c="16" s="10"/>
+</Attr>
+</Id>
+</Exp_Comparison>
+</Condition>
+<Then>
+<Simple_Assignement_Sub>
+<Variables>
+<Id value="result" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:6:2:2:1:3:1:2:1:1:1" typref="1193619202">
+<Attr>
+<Pos l="49" c="13" s="6"/>
+</Attr>
+</Id>
+</Variables>
+<Values>
+<Id value="FAILED_MAZE_BOUNDARY" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:6:2:2:1:3:1:2:1:2:1" typref="1193619202">
+<Attr>
+<Pos l="49" c="13" s="6"/>
+</Attr>
+</Id>
+</Values>
+</Simple_Assignement_Sub>
+</Then>
+<Else>
+<Nary_Sub op="||">
+<Simple_Assignement_Sub>
+<Variables>
+<Id value="route" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:6:2:2:1:3:1:3:1:1:1:1" typref="1905100487">
+<Attr>
+<Pos l="51" c="13" s="5"/>
+</Attr>
+</Id>
+</Variables>
+<Values>
+<Binary_Exp typref="1905100487" op="&lt;-">
+<Attr>
+<Pos l="51" c="13" s="5"/>
+</Attr>
+<Id value="route" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:6:2:2:1:3:1:3:1:1:2:1:1" typref="1905100487">
+<Attr>
+<Pos l="51" c="24" s="5"/>
+</Attr>
+</Id>
+<Binary_Exp typref="3672872563" op="|-&gt;">
+<Attr>
+<Pos l="51" c="37" s="3"/>
+</Attr>
+<Id value="xx" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:6:2:2:1:3:1:3:1:1:2:1:2:1" typref="2701647786">
+<Attr>
+<Pos l="51" c="34" s="2"/>
+</Attr>
+</Id>
+<Id value="yy" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:6:2:2:1:3:1:3:1:1:2:1:2:2" typref="2701647786">
+<Attr>
+<Pos l="51" c="42" s="2"/>
+</Attr>
+</Id>
+</Binary_Exp>
+</Binary_Exp>
+</Values>
+</Simple_Assignement_Sub>
+<Simple_Assignement_Sub>
+<Variables>
+<Id value="yy" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:6:2:2:1:3:1:3:1:2:1:1" typref="2701647786">
+<Attr>
+<Pos l="52" c="13" s="2"/>
+</Attr>
+</Id>
+<Id value="result" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:6:2:2:1:3:1:3:1:2:1:2" typref="1193619202">
+<Attr>
+<Pos l="52" c="17" s="6"/>
+</Attr>
+</Id>
+</Variables>
+<Values>
+<Binary_Exp typref="2701647786" op="+">
+<Attr>
+<Pos l="52" c="13" s="2"/>
+</Attr>
+<Id value="yy" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:6:2:2:1:3:1:3:1:2:2:1:1" typref="2701647786">
+<Attr>
+<Pos l="52" c="28" s="2"/>
+</Attr>
+</Id>
+<Integer_Literal value="1" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:6:2:2:1:3:1:3:1:2:2:1:2" typref="2701647786">
+<Attr>
+<Pos l="52" c="31" s="1"/>
+</Attr>
+</Integer_Literal>
+</Binary_Exp>
+<Id value="MOVE_SUCCESS" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:6:2:2:1:3:1:3:1:2:2:2" typref="1193619202">
+<Attr>
+<Pos l="52" c="17" s="6"/>
+</Attr>
+</Id>
+</Values>
+</Simple_Assignement_Sub>
+</Nary_Sub>
+</Else>
+</If_Sub>
+</Else>
+</If_Sub>
+<Binary_Pred op="=&gt;">
+<Nary_Pred op="&amp;"/>
+<Tag goalTag="Invariant is preserved">
+<Nary_Pred op="&amp;">
+<Attr>
+<Pos l="25" c="1" s="9"/>
+</Attr>
+<Nary_Pred op="&amp;">
+<Exp_Comparison initialTag="((xx) : ((NAT-{0})))" op=":">
+<Attr>
+<Pos l="26" c="8" s="1"/>
+</Attr>
+<Id value="xx" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:4:1:1:1" typref="2701647786">
+<Attr>
+<Pos l="26" c="5" s="2"/>
+</Attr>
+</Id>
+<Id value="NAT1" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:4:1:1:2" typref="3603043417">
+<Attr>
+<Pos l="26" c="10" s="4"/>
+</Attr>
+</Id>
+</Exp_Comparison>
+<Exp_Comparison initialTag="((yy) : ((NAT-{0})))" op=":">
+<Attr>
+<Pos l="26" c="20" s="1"/>
+</Attr>
+<Id value="yy" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:4:1:2:1" typref="2701647786">
+<Attr>
+<Pos l="26" c="17" s="2"/>
+</Attr>
+</Id>
+<Id value="NAT1" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:4:1:2:2" typref="3603043417">
+<Attr>
+<Pos l="26" c="22" s="4"/>
+</Attr>
+</Id>
+</Exp_Comparison>
+<Exp_Comparison initialTag="(xx &lt;= width)" op="&lt;=">
+<Attr>
+<Pos l="26" c="32" s="2"/>
+</Attr>
+<Id value="xx" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:4:1:3:1" typref="2701647786">
+<Attr>
+<Pos l="26" c="29" s="2"/>
+</Attr>
+</Id>
+<Id value="width" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:4:1:3:2" typref="2701647786">
+<Attr>
+<Pos l="26" c="35" s="5"/>
+</Attr>
+</Id>
+</Exp_Comparison>
+<Exp_Comparison initialTag="(yy &lt;= height)" op="&lt;=">
+<Attr>
+<Pos l="26" c="46" s="2"/>
+</Attr>
+<Id value="yy" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:4:1:4:1" typref="2701647786">
+<Attr>
+<Pos l="26" c="43" s="2"/>
+</Attr>
+</Id>
+<Id value="height" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:4:1:4:2" typref="2701647786">
+<Attr>
+<Pos l="26" c="50" s="6"/>
+</Attr>
+</Id>
+</Exp_Comparison>
+<Exp_Comparison initialTag="((route) : (seq(maze)))" op=":">
+<Attr>
+<Pos l="26" c="65" s="1"/>
+</Attr>
+<Id value="route" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:4:1:5:1" typref="1905100487">
+<Attr>
+<Pos l="26" c="59" s="5"/>
+</Attr>
+</Id>
+<Unary_Exp typref="1382780156" op="seq">
+<Attr>
+<Pos l="26" c="67" s="3"/>
+</Attr>
+<Id value="maze" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:4:1:5:2:1" typref="103245008">
+<Attr>
+<Pos l="26" c="71" s="4"/>
+</Attr>
+</Id>
+</Unary_Exp>
+</Exp_Comparison>
+</Nary_Pred>
+</Nary_Pred>
+</Tag>
+</Binary_Pred>
+</Sub_Calculus>
+</Goal>
+</Proof_Obligation>
+<Proof_Obligation>
+<Comment>Operations dans une machine abstraite</Comment>
+<Tag>MoveSouth</Tag>
+<Tag>INVARIANT</Tag>
+<Definition name="B definitions"/>
+<Definition name="ctx"/>
+<Definition name="cst"/>
+<Definition name="lprp"/>
+<Definition name="inprp"/>
+<Definition name="inext"/>
+<Definition name="seext"/>
+<Definition name="inv"/>
+<Definition name="ass"/>
+<Hypothesis/>
+<Goal>
+<Sub_Calculus>
+<If_Sub elseif="no">
+<Attr>
+<Pos l="60" c="9" s="2"/>
+</Attr>
+<Condition>
+<Exp_Comparison op=":">
+<Attr>
+<Pos l="16" expanded="yes" c="35" s="1"/>
+<Pos l="60" c="14" s="6"/>
+</Attr>
+<Binary_Exp op="|-&gt;">
+<Id value="xx" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:6:3:2:1:1:1:1:1" typref="2701647786">
+<Attr>
+<Pos l="60" expanded="yes" c="22" s="2"/>
+<Pos l="60" c="14" s="6"/>
+</Attr>
+</Id>
+<Binary_Exp typref="2701647786" op="-">
+<Attr>
+<Pos l="60" expanded="yes" c="32" s="1"/>
+<Pos l="60" c="14" s="6"/>
+</Attr>
+<Id value="yy" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:6:3:2:1:1:1:1:2:1" typref="2701647786">
+<Attr>
+<Pos l="60" expanded="yes" c="30" s="2"/>
+<Pos l="60" c="14" s="6"/>
+</Attr>
+</Id>
+<Integer_Literal value="1" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:6:3:2:1:1:1:1:2:2" typref="2701647786">
+<Attr>
+<Pos l="60" expanded="yes" c="33" s="1"/>
+<Pos l="60" c="14" s="6"/>
+</Attr>
+</Integer_Literal>
+</Binary_Exp>
+</Binary_Exp>
+<Id value="walls" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:6:3:2:1:1:1:2" typref="103245008">
+<Attr>
+<Pos l="16" expanded="yes" c="37" s="5"/>
+<Pos l="60" c="14" s="6"/>
+</Attr>
+</Id>
+</Exp_Comparison>
+</Condition>
+<Then>
+<Simple_Assignement_Sub>
+<Variables>
+<Id value="result" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:6:3:2:1:2:1:1:1" typref="1193619202">
+<Attr>
+<Pos l="62" c="13" s="6"/>
+</Attr>
+</Id>
+</Variables>
+<Values>
+<Id value="FAILED_WALL" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:6:3:2:1:2:1:2:1" typref="1193619202">
+<Attr>
+<Pos l="62" c="13" s="6"/>
+</Attr>
+</Id>
+</Values>
+</Simple_Assignement_Sub>
+</Then>
+<Else>
+<If_Sub elseif="yes">
+<Condition>
+<Exp_Comparison op="/:">
+<Attr>
+<Pos l="17" expanded="yes" c="38" s="2"/>
+<Pos l="63" c="16" s="10"/>
+</Attr>
+<Binary_Exp typref="3672872563" op="|-&gt;">
+<Attr>
+<Pos l="63" expanded="yes" c="31" s="3"/>
+<Pos l="63" c="16" s="10"/>
+</Attr>
+<Id value="xx" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:6:3:2:1:3:1:1:1:1:1" typref="2701647786">
+<Attr>
+<Pos l="63" expanded="yes" c="28" s="2"/>
+<Pos l="63" c="16" s="10"/>
+</Attr>
+</Id>
+<Binary_Exp typref="2701647786" op="-">
+<Attr>
+<Pos l="63" expanded="yes" c="38" s="1"/>
+<Pos l="63" c="16" s="10"/>
+</Attr>
+<Id value="yy" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:6:3:2:1:3:1:1:1:1:2:1" typref="2701647786">
+<Attr>
+<Pos l="63" expanded="yes" c="36" s="2"/>
+<Pos l="63" c="16" s="10"/>
+</Attr>
+</Id>
+<Integer_Literal value="1" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:6:3:2:1:3:1:1:1:1:2:2" typref="2701647786">
+<Attr>
+<Pos l="63" expanded="yes" c="39" s="1"/>
+<Pos l="63" c="16" s="10"/>
+</Attr>
+</Integer_Literal>
+</Binary_Exp>
+</Binary_Exp>
+<Id value="maze" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:6:3:2:1:3:1:1:1:2" typref="103245008">
+<Attr>
+<Pos l="17" expanded="yes" c="41" s="4"/>
+<Pos l="63" c="16" s="10"/>
+</Attr>
+</Id>
+</Exp_Comparison>
+</Condition>
+<Then>
+<Simple_Assignement_Sub>
+<Variables>
+<Id value="result" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:6:3:2:1:3:1:2:1:1:1" typref="1193619202">
+<Attr>
+<Pos l="65" c="13" s="6"/>
+</Attr>
+</Id>
+</Variables>
+<Values>
+<Id value="FAILED_MAZE_BOUNDARY" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:6:3:2:1:3:1:2:1:2:1" typref="1193619202">
+<Attr>
+<Pos l="65" c="13" s="6"/>
+</Attr>
+</Id>
+</Values>
+</Simple_Assignement_Sub>
+</Then>
+<Else>
+<Nary_Sub op="||">
+<Simple_Assignement_Sub>
+<Variables>
+<Id value="route" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:6:3:2:1:3:1:3:1:1:1:1" typref="1905100487">
+<Attr>
+<Pos l="67" c="13" s="5"/>
+</Attr>
+</Id>
+</Variables>
+<Values>
+<Binary_Exp typref="1905100487" op="&lt;-">
+<Attr>
+<Pos l="67" c="13" s="5"/>
+</Attr>
+<Id value="route" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:6:3:2:1:3:1:3:1:1:2:1:1" typref="1905100487">
+<Attr>
+<Pos l="67" c="24" s="5"/>
+</Attr>
+</Id>
+<Binary_Exp typref="3672872563" op="|-&gt;">
+<Attr>
+<Pos l="67" c="37" s="3"/>
+</Attr>
+<Id value="xx" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:6:3:2:1:3:1:3:1:1:2:1:2:1" typref="2701647786">
+<Attr>
+<Pos l="67" c="34" s="2"/>
+</Attr>
+</Id>
+<Id value="yy" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:6:3:2:1:3:1:3:1:1:2:1:2:2" typref="2701647786">
+<Attr>
+<Pos l="67" c="42" s="2"/>
+</Attr>
+</Id>
+</Binary_Exp>
+</Binary_Exp>
+</Values>
+</Simple_Assignement_Sub>
+<Simple_Assignement_Sub>
+<Variables>
+<Id value="yy" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:6:3:2:1:3:1:3:1:2:1:1" typref="2701647786">
+<Attr>
+<Pos l="68" c="13" s="2"/>
+</Attr>
+</Id>
+<Id value="result" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:6:3:2:1:3:1:3:1:2:1:2" typref="1193619202">
+<Attr>
+<Pos l="68" c="17" s="6"/>
+</Attr>
+</Id>
+</Variables>
+<Values>
+<Binary_Exp typref="2701647786" op="-">
+<Attr>
+<Pos l="68" c="13" s="2"/>
+</Attr>
+<Id value="yy" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:6:3:2:1:3:1:3:1:2:2:1:1" typref="2701647786">
+<Attr>
+<Pos l="68" c="26" s="2"/>
+</Attr>
+</Id>
+<Integer_Literal value="1" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:6:3:2:1:3:1:3:1:2:2:1:2" typref="2701647786">
+<Attr>
+<Pos l="68" c="29" s="1"/>
+</Attr>
+</Integer_Literal>
+</Binary_Exp>
+<Id value="MOVE_SUCCESS" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:6:3:2:1:3:1:3:1:2:2:2" typref="1193619202">
+<Attr>
+<Pos l="68" c="17" s="6"/>
+</Attr>
+</Id>
+</Values>
+</Simple_Assignement_Sub>
+</Nary_Sub>
+</Else>
+</If_Sub>
+</Else>
+</If_Sub>
+<Binary_Pred op="=&gt;">
+<Nary_Pred op="&amp;"/>
+<Tag goalTag="Invariant is preserved">
+<Nary_Pred op="&amp;">
+<Attr>
+<Pos l="25" c="1" s="9"/>
+</Attr>
+<Nary_Pred op="&amp;">
+<Exp_Comparison initialTag="((xx) : ((NAT-{0})))" op=":">
+<Attr>
+<Pos l="26" c="8" s="1"/>
+</Attr>
+<Id value="xx" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:4:1:1:1" typref="2701647786">
+<Attr>
+<Pos l="26" c="5" s="2"/>
+</Attr>
+</Id>
+<Id value="NAT1" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:4:1:1:2" typref="3603043417">
+<Attr>
+<Pos l="26" c="10" s="4"/>
+</Attr>
+</Id>
+</Exp_Comparison>
+<Exp_Comparison initialTag="((yy) : ((NAT-{0})))" op=":">
+<Attr>
+<Pos l="26" c="20" s="1"/>
+</Attr>
+<Id value="yy" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:4:1:2:1" typref="2701647786">
+<Attr>
+<Pos l="26" c="17" s="2"/>
+</Attr>
+</Id>
+<Id value="NAT1" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:4:1:2:2" typref="3603043417">
+<Attr>
+<Pos l="26" c="22" s="4"/>
+</Attr>
+</Id>
+</Exp_Comparison>
+<Exp_Comparison initialTag="(xx &lt;= width)" op="&lt;=">
+<Attr>
+<Pos l="26" c="32" s="2"/>
+</Attr>
+<Id value="xx" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:4:1:3:1" typref="2701647786">
+<Attr>
+<Pos l="26" c="29" s="2"/>
+</Attr>
+</Id>
+<Id value="width" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:4:1:3:2" typref="2701647786">
+<Attr>
+<Pos l="26" c="35" s="5"/>
+</Attr>
+</Id>
+</Exp_Comparison>
+<Exp_Comparison initialTag="(yy &lt;= height)" op="&lt;=">
+<Attr>
+<Pos l="26" c="46" s="2"/>
+</Attr>
+<Id value="yy" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:4:1:4:1" typref="2701647786">
+<Attr>
+<Pos l="26" c="43" s="2"/>
+</Attr>
+</Id>
+<Id value="height" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:4:1:4:2" typref="2701647786">
+<Attr>
+<Pos l="26" c="50" s="6"/>
+</Attr>
+</Id>
+</Exp_Comparison>
+<Exp_Comparison initialTag="((route) : (seq(maze)))" op=":">
+<Attr>
+<Pos l="26" c="65" s="1"/>
+</Attr>
+<Id value="route" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:4:1:5:1" typref="1905100487">
+<Attr>
+<Pos l="26" c="59" s="5"/>
+</Attr>
+</Id>
+<Unary_Exp typref="1382780156" op="seq">
+<Attr>
+<Pos l="26" c="67" s="3"/>
+</Attr>
+<Id value="maze" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:4:1:5:2:1" typref="103245008">
+<Attr>
+<Pos l="26" c="71" s="4"/>
+</Attr>
+</Id>
+</Unary_Exp>
+</Exp_Comparison>
+</Nary_Pred>
+</Nary_Pred>
+</Tag>
+</Binary_Pred>
+</Sub_Calculus>
+</Goal>
+</Proof_Obligation>
+<Proof_Obligation>
+<Comment>Operations dans une machine abstraite</Comment>
+<Tag>MoveEast</Tag>
+<Tag>INVARIANT</Tag>
+<Definition name="B definitions"/>
+<Definition name="ctx"/>
+<Definition name="cst"/>
+<Definition name="lprp"/>
+<Definition name="inprp"/>
+<Definition name="inext"/>
+<Definition name="seext"/>
+<Definition name="inv"/>
+<Definition name="ass"/>
+<Hypothesis/>
+<Goal>
+<Sub_Calculus>
+<If_Sub elseif="no">
+<Attr>
+<Pos l="76" c="9" s="2"/>
+</Attr>
+<Condition>
+<Exp_Comparison op=":">
+<Attr>
+<Pos l="16" expanded="yes" c="35" s="1"/>
+<Pos l="76" c="13" s="6"/>
+</Attr>
+<Binary_Exp op="|-&gt;">
+<Binary_Exp typref="2701647786" op="+">
+<Attr>
+<Pos l="76" expanded="yes" c="23" s="1"/>
+<Pos l="76" c="13" s="6"/>
+</Attr>
+<Id value="xx" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:6:4:2:1:1:1:1:1:1" typref="2701647786">
+<Attr>
+<Pos l="76" expanded="yes" c="21" s="2"/>
+<Pos l="76" c="13" s="6"/>
+</Attr>
+</Id>
+<Integer_Literal value="1" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:6:4:2:1:1:1:1:1:2" typref="2701647786">
+<Attr>
+<Pos l="76" expanded="yes" c="24" s="1"/>
+<Pos l="76" c="13" s="6"/>
+</Attr>
+</Integer_Literal>
+</Binary_Exp>
+<Id value="yy" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:6:4:2:1:1:1:1:2" typref="2701647786">
+<Attr>
+<Pos l="76" expanded="yes" c="31" s="2"/>
+<Pos l="76" c="13" s="6"/>
+</Attr>
+</Id>
+</Binary_Exp>
+<Id value="walls" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:6:4:2:1:1:1:2" typref="103245008">
+<Attr>
+<Pos l="16" expanded="yes" c="37" s="5"/>
+<Pos l="76" c="13" s="6"/>
+</Attr>
+</Id>
+</Exp_Comparison>
+</Condition>
+<Then>
+<Simple_Assignement_Sub>
+<Variables>
+<Id value="result" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:6:4:2:1:2:1:1:1" typref="1193619202">
+<Attr>
+<Pos l="78" c="13" s="6"/>
+</Attr>
+</Id>
+</Variables>
+<Values>
+<Id value="FAILED_WALL" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:6:4:2:1:2:1:2:1" typref="1193619202">
+<Attr>
+<Pos l="78" c="13" s="6"/>
+</Attr>
+</Id>
+</Values>
+</Simple_Assignement_Sub>
+</Then>
+<Else>
+<If_Sub elseif="yes">
+<Condition>
+<Exp_Comparison op="/:">
+<Attr>
+<Pos l="17" expanded="yes" c="38" s="2"/>
+<Pos l="79" c="17" s="10"/>
+</Attr>
+<Binary_Exp typref="3672872563" op="|-&gt;">
+<Attr>
+<Pos l="79" expanded="yes" c="34" s="3"/>
+<Pos l="79" c="17" s="10"/>
+</Attr>
+<Binary_Exp typref="2701647786" op="+">
+<Attr>
+<Pos l="79" expanded="yes" c="31" s="1"/>
+<Pos l="79" c="17" s="10"/>
+</Attr>
+<Id value="xx" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:6:4:2:1:3:1:1:1:1:1:1" typref="2701647786">
+<Attr>
+<Pos l="79" expanded="yes" c="29" s="2"/>
+<Pos l="79" c="17" s="10"/>
+</Attr>
+</Id>
+<Integer_Literal value="1" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:6:4:2:1:3:1:1:1:1:1:2" typref="2701647786">
+<Attr>
+<Pos l="79" expanded="yes" c="32" s="1"/>
+<Pos l="79" c="17" s="10"/>
+</Attr>
+</Integer_Literal>
+</Binary_Exp>
+<Id value="yy" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:6:4:2:1:3:1:1:1:1:2" typref="2701647786">
+<Attr>
+<Pos l="79" expanded="yes" c="39" s="2"/>
+<Pos l="79" c="17" s="10"/>
+</Attr>
+</Id>
+</Binary_Exp>
+<Id value="maze" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:6:4:2:1:3:1:1:1:2" typref="103245008">
+<Attr>
+<Pos l="17" expanded="yes" c="41" s="4"/>
+<Pos l="79" c="17" s="10"/>
+</Attr>
+</Id>
+</Exp_Comparison>
+</Condition>
+<Then>
+<Simple_Assignement_Sub>
+<Variables>
+<Id value="result" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:6:4:2:1:3:1:2:1:1:1" typref="1193619202">
+<Attr>
+<Pos l="81" c="13" s="6"/>
+</Attr>
+</Id>
+</Variables>
+<Values>
+<Id value="FAILED_MAZE_BOUNDARY" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:6:4:2:1:3:1:2:1:2:1" typref="1193619202">
+<Attr>
+<Pos l="81" c="13" s="6"/>
+</Attr>
+</Id>
+</Values>
+</Simple_Assignement_Sub>
+</Then>
+<Else>
+<Nary_Sub op="||">
+<Simple_Assignement_Sub>
+<Variables>
+<Id value="route" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:6:4:2:1:3:1:3:1:1:1:1" typref="1905100487">
+<Attr>
+<Pos l="83" c="13" s="5"/>
+</Attr>
+</Id>
+</Variables>
+<Values>
+<Binary_Exp typref="1905100487" op="&lt;-">
+<Attr>
+<Pos l="83" c="13" s="5"/>
+</Attr>
+<Id value="route" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:6:4:2:1:3:1:3:1:1:2:1:1" typref="1905100487">
+<Attr>
+<Pos l="83" c="24" s="5"/>
+</Attr>
+</Id>
+<Binary_Exp typref="3672872563" op="|-&gt;">
+<Attr>
+<Pos l="83" c="37" s="3"/>
+</Attr>
+<Id value="xx" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:6:4:2:1:3:1:3:1:1:2:1:2:1" typref="2701647786">
+<Attr>
+<Pos l="83" c="34" s="2"/>
+</Attr>
+</Id>
+<Id value="yy" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:6:4:2:1:3:1:3:1:1:2:1:2:2" typref="2701647786">
+<Attr>
+<Pos l="83" c="42" s="2"/>
+</Attr>
+</Id>
+</Binary_Exp>
+</Binary_Exp>
+</Values>
+</Simple_Assignement_Sub>
+<Simple_Assignement_Sub>
+<Variables>
+<Id value="xx" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:6:4:2:1:3:1:3:1:2:1:1" typref="2701647786">
+<Attr>
+<Pos l="84" c="13" s="2"/>
+</Attr>
+</Id>
+<Id value="result" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:6:4:2:1:3:1:3:1:2:1:2" typref="1193619202">
+<Attr>
+<Pos l="84" c="17" s="6"/>
+</Attr>
+</Id>
+</Variables>
+<Values>
+<Binary_Exp typref="2701647786" op="+">
+<Attr>
+<Pos l="84" c="13" s="2"/>
+</Attr>
+<Id value="xx" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:6:4:2:1:3:1:3:1:2:2:1:1" typref="2701647786">
+<Attr>
+<Pos l="84" c="26" s="2"/>
+</Attr>
+</Id>
+<Integer_Literal value="1" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:6:4:2:1:3:1:3:1:2:2:1:2" typref="2701647786">
+<Attr>
+<Pos l="84" c="29" s="1"/>
+</Attr>
+</Integer_Literal>
+</Binary_Exp>
+<Id value="MOVE_SUCCESS" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:6:4:2:1:3:1:3:1:2:2:2" typref="1193619202">
+<Attr>
+<Pos l="84" c="17" s="6"/>
+</Attr>
+</Id>
+</Values>
+</Simple_Assignement_Sub>
+</Nary_Sub>
+</Else>
+</If_Sub>
+</Else>
+</If_Sub>
+<Binary_Pred op="=&gt;">
+<Nary_Pred op="&amp;"/>
+<Tag goalTag="Invariant is preserved">
+<Nary_Pred op="&amp;">
+<Attr>
+<Pos l="25" c="1" s="9"/>
+</Attr>
+<Nary_Pred op="&amp;">
+<Exp_Comparison initialTag="((xx) : ((NAT-{0})))" op=":">
+<Attr>
+<Pos l="26" c="8" s="1"/>
+</Attr>
+<Id value="xx" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:4:1:1:1" typref="2701647786">
+<Attr>
+<Pos l="26" c="5" s="2"/>
+</Attr>
+</Id>
+<Id value="NAT1" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:4:1:1:2" typref="3603043417">
+<Attr>
+<Pos l="26" c="10" s="4"/>
+</Attr>
+</Id>
+</Exp_Comparison>
+<Exp_Comparison initialTag="((yy) : ((NAT-{0})))" op=":">
+<Attr>
+<Pos l="26" c="20" s="1"/>
+</Attr>
+<Id value="yy" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:4:1:2:1" typref="2701647786">
+<Attr>
+<Pos l="26" c="17" s="2"/>
+</Attr>
+</Id>
+<Id value="NAT1" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:4:1:2:2" typref="3603043417">
+<Attr>
+<Pos l="26" c="22" s="4"/>
+</Attr>
+</Id>
+</Exp_Comparison>
+<Exp_Comparison initialTag="(xx &lt;= width)" op="&lt;=">
+<Attr>
+<Pos l="26" c="32" s="2"/>
+</Attr>
+<Id value="xx" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:4:1:3:1" typref="2701647786">
+<Attr>
+<Pos l="26" c="29" s="2"/>
+</Attr>
+</Id>
+<Id value="width" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:4:1:3:2" typref="2701647786">
+<Attr>
+<Pos l="26" c="35" s="5"/>
+</Attr>
+</Id>
+</Exp_Comparison>
+<Exp_Comparison initialTag="(yy &lt;= height)" op="&lt;=">
+<Attr>
+<Pos l="26" c="46" s="2"/>
+</Attr>
+<Id value="yy" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:4:1:4:1" typref="2701647786">
+<Attr>
+<Pos l="26" c="43" s="2"/>
+</Attr>
+</Id>
+<Id value="height" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:4:1:4:2" typref="2701647786">
+<Attr>
+<Pos l="26" c="50" s="6"/>
+</Attr>
+</Id>
+</Exp_Comparison>
+<Exp_Comparison initialTag="((route) : (seq(maze)))" op=":">
+<Attr>
+<Pos l="26" c="65" s="1"/>
+</Attr>
+<Id value="route" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:4:1:5:1" typref="1905100487">
+<Attr>
+<Pos l="26" c="59" s="5"/>
+</Attr>
+</Id>
+<Unary_Exp typref="1382780156" op="seq">
+<Attr>
+<Pos l="26" c="67" s="3"/>
+</Attr>
+<Id value="maze" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:4:1:5:2:1" typref="103245008">
+<Attr>
+<Pos l="26" c="71" s="4"/>
+</Attr>
+</Id>
+</Unary_Exp>
+</Exp_Comparison>
+</Nary_Pred>
+</Nary_Pred>
+</Tag>
+</Binary_Pred>
+</Sub_Calculus>
+</Goal>
+</Proof_Obligation>
+<Proof_Obligation>
+<Comment>Operations dans une machine abstraite</Comment>
+<Tag>MoveWest</Tag>
+<Tag>INVARIANT</Tag>
+<Definition name="B definitions"/>
+<Definition name="ctx"/>
+<Definition name="cst"/>
+<Definition name="lprp"/>
+<Definition name="inprp"/>
+<Definition name="inext"/>
+<Definition name="seext"/>
+<Definition name="inv"/>
+<Definition name="ass"/>
+<Hypothesis/>
+<Goal>
+<Sub_Calculus>
+<If_Sub elseif="no">
+<Attr>
+<Pos l="92" c="9" s="2"/>
+</Attr>
+<Condition>
+<Exp_Comparison op=":">
+<Attr>
+<Pos l="16" expanded="yes" c="35" s="1"/>
+<Pos l="92" c="14" s="6"/>
+</Attr>
+<Binary_Exp op="|-&gt;">
+<Binary_Exp typref="2701647786" op="-">
+<Attr>
+<Pos l="92" expanded="yes" c="24" s="1"/>
+<Pos l="92" c="14" s="6"/>
+</Attr>
+<Id value="xx" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:6:5:2:1:1:1:1:1:1" typref="2701647786">
+<Attr>
+<Pos l="92" expanded="yes" c="22" s="2"/>
+<Pos l="92" c="14" s="6"/>
+</Attr>
+</Id>
+<Integer_Literal value="1" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:6:5:2:1:1:1:1:1:2" typref="2701647786">
+<Attr>
+<Pos l="92" expanded="yes" c="25" s="1"/>
+<Pos l="92" c="14" s="6"/>
+</Attr>
+</Integer_Literal>
+</Binary_Exp>
+<Id value="yy" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:6:5:2:1:1:1:1:2" typref="2701647786">
+<Attr>
+<Pos l="92" expanded="yes" c="32" s="2"/>
+<Pos l="92" c="14" s="6"/>
+</Attr>
+</Id>
+</Binary_Exp>
+<Id value="walls" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:6:5:2:1:1:1:2" typref="103245008">
+<Attr>
+<Pos l="16" expanded="yes" c="37" s="5"/>
+<Pos l="92" c="14" s="6"/>
+</Attr>
+</Id>
+</Exp_Comparison>
+</Condition>
+<Then>
+<Simple_Assignement_Sub>
+<Variables>
+<Id value="result" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:6:5:2:1:2:1:1:1" typref="1193619202">
+<Attr>
+<Pos l="94" c="13" s="6"/>
+</Attr>
+</Id>
+</Variables>
+<Values>
+<Id value="FAILED_WALL" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:6:5:2:1:2:1:2:1" typref="1193619202">
+<Attr>
+<Pos l="94" c="13" s="6"/>
+</Attr>
+</Id>
+</Values>
+</Simple_Assignement_Sub>
+</Then>
+<Else>
+<If_Sub elseif="yes">
+<Condition>
+<Exp_Comparison op="/:">
+<Attr>
+<Pos l="17" expanded="yes" c="38" s="2"/>
+<Pos l="95" c="17" s="10"/>
+</Attr>
+<Binary_Exp typref="3672872563" op="|-&gt;">
+<Attr>
+<Pos l="95" expanded="yes" c="35" s="3"/>
+<Pos l="95" c="17" s="10"/>
+</Attr>
+<Binary_Exp typref="2701647786" op="-">
+<Attr>
+<Pos l="95" expanded="yes" c="32" s="1"/>
+<Pos l="95" c="17" s="10"/>
+</Attr>
+<Id value="xx" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:6:5:2:1:3:1:1:1:1:1:1" typref="2701647786">
+<Attr>
+<Pos l="95" expanded="yes" c="30" s="2"/>
+<Pos l="95" c="17" s="10"/>
+</Attr>
+</Id>
+<Integer_Literal value="1" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:6:5:2:1:3:1:1:1:1:1:2" typref="2701647786">
+<Attr>
+<Pos l="95" expanded="yes" c="33" s="1"/>
+<Pos l="95" c="17" s="10"/>
+</Attr>
+</Integer_Literal>
+</Binary_Exp>
+<Id value="yy" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:6:5:2:1:3:1:1:1:1:2" typref="2701647786">
+<Attr>
+<Pos l="95" expanded="yes" c="40" s="2"/>
+<Pos l="95" c="17" s="10"/>
+</Attr>
+</Id>
+</Binary_Exp>
+<Id value="maze" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:6:5:2:1:3:1:1:1:2" typref="103245008">
+<Attr>
+<Pos l="17" expanded="yes" c="41" s="4"/>
+<Pos l="95" c="17" s="10"/>
+</Attr>
+</Id>
+</Exp_Comparison>
+</Condition>
+<Then>
+<Simple_Assignement_Sub>
+<Variables>
+<Id value="result" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:6:5:2:1:3:1:2:1:1:1" typref="1193619202">
+<Attr>
+<Pos l="97" c="13" s="6"/>
+</Attr>
+</Id>
+</Variables>
+<Values>
+<Id value="FAILED_MAZE_BOUNDARY" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:6:5:2:1:3:1:2:1:2:1" typref="1193619202">
+<Attr>
+<Pos l="97" c="13" s="6"/>
+</Attr>
+</Id>
+</Values>
+</Simple_Assignement_Sub>
+</Then>
+<Else>
+<Nary_Sub op="||">
+<Simple_Assignement_Sub>
+<Variables>
+<Id value="route" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:6:5:2:1:3:1:3:1:1:1:1" typref="1905100487">
+<Attr>
+<Pos l="99" c="13" s="5"/>
+</Attr>
+</Id>
+</Variables>
+<Values>
+<Binary_Exp typref="1905100487" op="&lt;-">
+<Attr>
+<Pos l="99" c="13" s="5"/>
+</Attr>
+<Id value="route" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:6:5:2:1:3:1:3:1:1:2:1:1" typref="1905100487">
+<Attr>
+<Pos l="99" c="24" s="5"/>
+</Attr>
+</Id>
+<Binary_Exp typref="3672872563" op="|-&gt;">
+<Attr>
+<Pos l="99" c="37" s="3"/>
+</Attr>
+<Id value="xx" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:6:5:2:1:3:1:3:1:1:2:1:2:1" typref="2701647786">
+<Attr>
+<Pos l="99" c="34" s="2"/>
+</Attr>
+</Id>
+<Id value="yy" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:6:5:2:1:3:1:3:1:1:2:1:2:2" typref="2701647786">
+<Attr>
+<Pos l="99" c="42" s="2"/>
+</Attr>
+</Id>
+</Binary_Exp>
+</Binary_Exp>
+</Values>
+</Simple_Assignement_Sub>
+<Simple_Assignement_Sub>
+<Variables>
+<Id value="xx" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:6:5:2:1:3:1:3:1:2:1:1" typref="2701647786">
+<Attr>
+<Pos l="100" c="13" s="2"/>
+</Attr>
+</Id>
+<Id value="result" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:6:5:2:1:3:1:3:1:2:1:2" typref="1193619202">
+<Attr>
+<Pos l="100" c="17" s="6"/>
+</Attr>
+</Id>
+</Variables>
+<Values>
+<Binary_Exp typref="2701647786" op="-">
+<Attr>
+<Pos l="100" c="13" s="2"/>
+</Attr>
+<Id value="xx" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:6:5:2:1:3:1:3:1:2:2:1:1" typref="2701647786">
+<Attr>
+<Pos l="100" c="26" s="2"/>
+</Attr>
+</Id>
+<Integer_Literal value="1" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:6:5:2:1:3:1:3:1:2:2:1:2" typref="2701647786">
+<Attr>
+<Pos l="100" c="29" s="1"/>
+</Attr>
+</Integer_Literal>
+</Binary_Exp>
+<Id value="MOVE_SUCCESS" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:6:5:2:1:3:1:3:1:2:2:2" typref="1193619202">
+<Attr>
+<Pos l="100" c="17" s="6"/>
+</Attr>
+</Id>
+</Values>
+</Simple_Assignement_Sub>
+</Nary_Sub>
+</Else>
+</If_Sub>
+</Else>
+</If_Sub>
+<Binary_Pred op="=&gt;">
+<Nary_Pred op="&amp;"/>
+<Tag goalTag="Invariant is preserved">
+<Nary_Pred op="&amp;">
+<Attr>
+<Pos l="25" c="1" s="9"/>
+</Attr>
+<Nary_Pred op="&amp;">
+<Exp_Comparison initialTag="((xx) : ((NAT-{0})))" op=":">
+<Attr>
+<Pos l="26" c="8" s="1"/>
+</Attr>
+<Id value="xx" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:4:1:1:1" typref="2701647786">
+<Attr>
+<Pos l="26" c="5" s="2"/>
+</Attr>
+</Id>
+<Id value="NAT1" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:4:1:1:2" typref="3603043417">
+<Attr>
+<Pos l="26" c="10" s="4"/>
+</Attr>
+</Id>
+</Exp_Comparison>
+<Exp_Comparison initialTag="((yy) : ((NAT-{0})))" op=":">
+<Attr>
+<Pos l="26" c="20" s="1"/>
+</Attr>
+<Id value="yy" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:4:1:2:1" typref="2701647786">
+<Attr>
+<Pos l="26" c="17" s="2"/>
+</Attr>
+</Id>
+<Id value="NAT1" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:4:1:2:2" typref="3603043417">
+<Attr>
+<Pos l="26" c="22" s="4"/>
+</Attr>
+</Id>
+</Exp_Comparison>
+<Exp_Comparison initialTag="(xx &lt;= width)" op="&lt;=">
+<Attr>
+<Pos l="26" c="32" s="2"/>
+</Attr>
+<Id value="xx" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:4:1:3:1" typref="2701647786">
+<Attr>
+<Pos l="26" c="29" s="2"/>
+</Attr>
+</Id>
+<Id value="width" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:4:1:3:2" typref="2701647786">
+<Attr>
+<Pos l="26" c="35" s="5"/>
+</Attr>
+</Id>
+</Exp_Comparison>
+<Exp_Comparison initialTag="(yy &lt;= height)" op="&lt;=">
+<Attr>
+<Pos l="26" c="46" s="2"/>
+</Attr>
+<Id value="yy" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:4:1:4:1" typref="2701647786">
+<Attr>
+<Pos l="26" c="43" s="2"/>
+</Attr>
+</Id>
+<Id value="height" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:4:1:4:2" typref="2701647786">
+<Attr>
+<Pos l="26" c="50" s="6"/>
+</Attr>
+</Id>
+</Exp_Comparison>
+<Exp_Comparison initialTag="((route) : (seq(maze)))" op=":">
+<Attr>
+<Pos l="26" c="65" s="1"/>
+</Attr>
+<Id value="route" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:4:1:5:1" typref="1905100487">
+<Attr>
+<Pos l="26" c="59" s="5"/>
+</Attr>
+</Id>
+<Unary_Exp typref="1382780156" op="seq">
+<Attr>
+<Pos l="26" c="67" s="3"/>
+</Attr>
+<Id value="maze" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:4:1:5:2:1" typref="103245008">
+<Attr>
+<Pos l="26" c="71" s="4"/>
+</Attr>
+</Id>
+</Unary_Exp>
+</Exp_Comparison>
+</Nary_Pred>
+</Nary_Pred>
+</Tag>
+</Binary_Pred>
+</Sub_Calculus>
+</Goal>
+</Proof_Obligation>
+<Proof_Obligation>
+<Comment>Operations dans une machine abstraite</Comment>
+<Tag>Teleport</Tag>
+<Tag>INVARIANT</Tag>
+<Definition name="B definitions"/>
+<Definition name="ctx"/>
+<Definition name="cst"/>
+<Definition name="lprp"/>
+<Definition name="inprp"/>
+<Definition name="inext"/>
+<Definition name="seext"/>
+<Definition name="inv"/>
+<Definition name="ass"/>
+<Hypothesis>
+<Nary_Pred op="&amp;">
+<Exp_Comparison op=":">
+<Attr>
+<Pos l="107" c="14" s="1"/>
+</Attr>
+<Id value="xpos" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:6:6:3:1:1:1" typref="2701647786">
+<Attr>
+<Pos l="107" c="9" s="4"/>
+</Attr>
+</Id>
+<Id value="NAT1" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:6:6:3:1:1:2" typref="3603043417">
+<Attr>
+<Pos l="107" c="16" s="4"/>
+</Attr>
+</Id>
+</Exp_Comparison>
+<Exp_Comparison op=":">
+<Attr>
+<Pos l="107" c="28" s="1"/>
+</Attr>
+<Id value="ypos" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:6:6:3:1:2:1" typref="2701647786">
+<Attr>
+<Pos l="107" c="23" s="4"/>
+</Attr>
+</Id>
+<Id value="NAT1" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:6:6:3:1:2:2" typref="3603043417">
+<Attr>
+<Pos l="107" c="30" s="4"/>
+</Attr>
+</Id>
+</Exp_Comparison>
+<Exp_Comparison op="&lt;=">
+<Attr>
+<Pos l="18" expanded="yes" c="38" s="2"/>
+<Pos l="107" c="37" s="8"/>
+</Attr>
+<Id value="xpos" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:6:6:3:1:3:1:1" typref="2701647786">
+<Attr>
+<Pos l="107" expanded="yes" c="46" s="4"/>
+<Pos l="107" c="37" s="8"/>
+</Attr>
+</Id>
+<Id value="width" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:6:6:3:1:3:1:2" typref="2701647786">
+<Attr>
+<Pos l="18" expanded="yes" c="41" s="5"/>
+<Pos l="107" c="37" s="8"/>
+</Attr>
+</Id>
+</Exp_Comparison>
+<Exp_Comparison op="&lt;=">
+<Attr>
+<Pos l="18" expanded="yes" c="54" s="2"/>
+<Pos l="107" c="37" s="8"/>
+</Attr>
+<Id value="ypos" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:6:6:3:1:3:2:1" typref="2701647786">
+<Attr>
+<Pos l="107" expanded="yes" c="52" s="4"/>
+<Pos l="107" c="37" s="8"/>
+</Attr>
+</Id>
+<Id value="height" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:6:6:3:1:3:2:2" typref="2701647786">
+<Attr>
+<Pos l="18" expanded="yes" c="57" s="6"/>
+<Pos l="107" c="37" s="8"/>
+</Attr>
+</Id>
+</Exp_Comparison>
+</Nary_Pred>
+</Hypothesis>
+<Goal>
+<Sub_Calculus>
+<If_Sub elseif="no">
+<Attr>
+<Pos l="109" c="9" s="2"/>
+</Attr>
+<Condition>
+<Nary_Pred op="&amp;">
+<Exp_Comparison op="=">
+<Attr>
+<Pos l="109" c="26" s="1"/>
+</Attr>
+<Unary_Exp typref="2701647786" op="size">
+<Attr>
+<Pos l="109" c="14" s="4"/>
+</Attr>
+<Id value="route" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:6:6:4:1:1:1:1:1:1" typref="1905100487">
+<Attr>
+<Pos l="109" c="19" s="5"/>
+</Attr>
+</Id>
+</Unary_Exp>
+<Integer_Literal value="0" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:6:6:4:1:1:1:1:2" typref="2701647786">
+<Attr>
+<Pos l="109" c="28" s="1"/>
+</Attr>
+</Integer_Literal>
+</Exp_Comparison>
+<Exp_Comparison op="=">
+<Attr>
+<Pos l="109" c="51" s="1"/>
+</Attr>
+<Binary_Exp typref="3672872563" op="|-&gt;">
+<Attr>
+<Pos l="109" c="39" s="3"/>
+</Attr>
+<Id value="xpos" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:6:6:4:1:1:1:2:1:1" typref="2701647786">
+<Attr>
+<Pos l="109" c="34" s="4"/>
+</Attr>
+</Id>
+<Id value="ypos" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:6:6:4:1:1:1:2:1:2" typref="2701647786">
+<Attr>
+<Pos l="109" c="44" s="4"/>
+</Attr>
+</Id>
+</Binary_Exp>
+<Id value="exit" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:6:6:4:1:1:1:2:2" typref="3672872563">
+<Attr>
+<Pos l="109" c="53" s="4"/>
+</Attr>
+</Id>
+</Exp_Comparison>
+</Nary_Pred>
+</Condition>
+<Then>
+<Simple_Assignement_Sub>
+<Variables>
+<Id value="result" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:6:6:4:1:2:1:1:1" typref="1193619202">
+<Attr>
+<Pos l="111" c="13" s="6"/>
+</Attr>
+</Id>
+</Variables>
+<Values>
+<Id value="FAILED_FIRST_MOVE" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:6:6:4:1:2:1:2:1" typref="1193619202">
+<Attr>
+<Pos l="111" c="13" s="6"/>
+</Attr>
+</Id>
+</Values>
+</Simple_Assignement_Sub>
+</Then>
+<Else>
+<If_Sub elseif="yes">
+<Condition>
+<Exp_Comparison op=":">
+<Attr>
+<Pos l="16" expanded="yes" c="35" s="1"/>
+<Pos l="112" c="17" s="6"/>
+</Attr>
+<Binary_Exp op="|-&gt;">
+<Id value="xpos" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:6:6:4:1:3:1:1:1:1:1" typref="2701647786">
+<Attr>
+<Pos l="112" expanded="yes" c="25" s="4"/>
+<Pos l="112" c="17" s="6"/>
+</Attr>
+</Id>
+<Id value="ypos" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:6:6:4:1:3:1:1:1:1:2" typref="2701647786">
+<Attr>
+<Pos l="112" expanded="yes" c="35" s="4"/>
+<Pos l="112" c="17" s="6"/>
+</Attr>
+</Id>
+</Binary_Exp>
+<Id value="walls" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:6:6:4:1:3:1:1:1:2" typref="103245008">
+<Attr>
+<Pos l="16" expanded="yes" c="37" s="5"/>
+<Pos l="112" c="17" s="6"/>
+</Attr>
+</Id>
+</Exp_Comparison>
+</Condition>
+<Then>
+<Simple_Assignement_Sub>
+<Variables>
+<Id value="result" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:6:6:4:1:3:1:2:1:1:1" typref="1193619202">
+<Attr>
+<Pos l="114" c="13" s="6"/>
+</Attr>
+</Id>
+</Variables>
+<Values>
+<Id value="FAILED_WALL" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:6:6:4:1:3:1:2:1:2:1" typref="1193619202">
+<Attr>
+<Pos l="114" c="13" s="6"/>
+</Attr>
+</Id>
+</Values>
+</Simple_Assignement_Sub>
+</Then>
+<Else>
+<If_Sub elseif="yes">
+<Condition>
+<Exp_Comparison op="/:">
+<Attr>
+<Pos l="17" expanded="yes" c="38" s="2"/>
+<Pos l="115" c="17" s="10"/>
+</Attr>
+<Binary_Exp typref="3672872563" op="|-&gt;">
+<Attr>
+<Pos l="115" expanded="yes" c="35" s="3"/>
+<Pos l="115" c="17" s="10"/>
+</Attr>
+<Id value="xpos" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:6:6:4:1:3:1:3:1:1:1:1:1" typref="2701647786">
+<Attr>
+<Pos l="115" expanded="yes" c="30" s="4"/>
+<Pos l="115" c="17" s="10"/>
+</Attr>
+</Id>
+<Id value="ypos" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:6:6:4:1:3:1:3:1:1:1:1:2" typref="2701647786">
+<Attr>
+<Pos l="115" expanded="yes" c="40" s="4"/>
+<Pos l="115" c="17" s="10"/>
+</Attr>
+</Id>
+</Binary_Exp>
+<Id value="maze" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:6:6:4:1:3:1:3:1:1:1:2" typref="103245008">
+<Attr>
+<Pos l="17" expanded="yes" c="41" s="4"/>
+<Pos l="115" c="17" s="10"/>
+</Attr>
+</Id>
+</Exp_Comparison>
+</Condition>
+<Then>
+<Simple_Assignement_Sub>
+<Variables>
+<Id value="result" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:6:6:4:1:3:1:3:1:2:1:1:1" typref="1193619202">
+<Attr>
+<Pos l="117" c="13" s="6"/>
+</Attr>
+</Id>
+</Variables>
+<Values>
+<Id value="FAILED_MAZE_BOUNDARY" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:6:6:4:1:3:1:3:1:2:1:2:1" typref="1193619202">
+<Attr>
+<Pos l="117" c="13" s="6"/>
+</Attr>
+</Id>
+</Values>
+</Simple_Assignement_Sub>
+</Then>
+<Else>
+<Nary_Sub op="||">
+<Simple_Assignement_Sub>
+<Variables>
+<Id value="route" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:6:6:4:1:3:1:3:1:3:1:1:1:1" typref="1905100487">
+<Attr>
+<Pos l="119" c="13" s="5"/>
+</Attr>
+</Id>
+</Variables>
+<Values>
+<Binary_Exp typref="1905100487" op="&lt;-">
+<Attr>
+<Pos l="119" c="13" s="5"/>
+</Attr>
+<Id value="route" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:6:6:4:1:3:1:3:1:3:1:1:2:1:1" typref="1905100487">
+<Attr>
+<Pos l="119" c="24" s="5"/>
+</Attr>
+</Id>
+<Binary_Exp typref="3672872563" op="|-&gt;">
+<Attr>
+<Pos l="119" c="37" s="3"/>
+</Attr>
+<Id value="xx" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:6:6:4:1:3:1:3:1:3:1:1:2:1:2:1" typref="2701647786">
+<Attr>
+<Pos l="119" c="34" s="2"/>
+</Attr>
+</Id>
+<Id value="yy" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:6:6:4:1:3:1:3:1:3:1:1:2:1:2:2" typref="2701647786">
+<Attr>
+<Pos l="119" c="42" s="2"/>
+</Attr>
+</Id>
+</Binary_Exp>
+</Binary_Exp>
+</Values>
+</Simple_Assignement_Sub>
+<Simple_Assignement_Sub>
+<Variables>
+<Id value="xx" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:6:6:4:1:3:1:3:1:3:1:2:1:1" typref="2701647786">
+<Attr>
+<Pos l="120" c="13" s="2"/>
+</Attr>
+</Id>
+<Id value="yy" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:6:6:4:1:3:1:3:1:3:1:2:1:2" typref="2701647786">
+<Attr>
+<Pos l="120" c="17" s="2"/>
+</Attr>
+</Id>
+<Id value="result" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:6:6:4:1:3:1:3:1:3:1:2:1:3" typref="1193619202">
+<Attr>
+<Pos l="120" c="21" s="6"/>
+</Attr>
+</Id>
+</Variables>
+<Values>
+<Id value="xpos" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:6:6:4:1:3:1:3:1:3:1:2:2:1" typref="2701647786">
+<Attr>
+<Pos l="120" c="13" s="2"/>
+</Attr>
+</Id>
+<Id value="ypos" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:6:6:4:1:3:1:3:1:3:1:2:2:2" typref="2701647786">
+<Attr>
+<Pos l="120" c="17" s="2"/>
+</Attr>
+</Id>
+<Id value="MOVE_SUCCESS" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:6:6:4:1:3:1:3:1:3:1:2:2:3" typref="1193619202">
+<Attr>
+<Pos l="120" c="21" s="6"/>
+</Attr>
+</Id>
+</Values>
+</Simple_Assignement_Sub>
+</Nary_Sub>
+</Else>
+</If_Sub>
+</Else>
+</If_Sub>
+</Else>
+</If_Sub>
+<Binary_Pred op="=&gt;">
+<Nary_Pred op="&amp;"/>
+<Tag goalTag="Invariant is preserved">
+<Nary_Pred op="&amp;">
+<Attr>
+<Pos l="25" c="1" s="9"/>
+</Attr>
+<Nary_Pred op="&amp;">
+<Exp_Comparison initialTag="((xx) : ((NAT-{0})))" op=":">
+<Attr>
+<Pos l="26" c="8" s="1"/>
+</Attr>
+<Id value="xx" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:4:1:1:1" typref="2701647786">
+<Attr>
+<Pos l="26" c="5" s="2"/>
+</Attr>
+</Id>
+<Id value="NAT1" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:4:1:1:2" typref="3603043417">
+<Attr>
+<Pos l="26" c="10" s="4"/>
+</Attr>
+</Id>
+</Exp_Comparison>
+<Exp_Comparison initialTag="((yy) : ((NAT-{0})))" op=":">
+<Attr>
+<Pos l="26" c="20" s="1"/>
+</Attr>
+<Id value="yy" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:4:1:2:1" typref="2701647786">
+<Attr>
+<Pos l="26" c="17" s="2"/>
+</Attr>
+</Id>
+<Id value="NAT1" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:4:1:2:2" typref="3603043417">
+<Attr>
+<Pos l="26" c="22" s="4"/>
+</Attr>
+</Id>
+</Exp_Comparison>
+<Exp_Comparison initialTag="(xx &lt;= width)" op="&lt;=">
+<Attr>
+<Pos l="26" c="32" s="2"/>
+</Attr>
+<Id value="xx" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:4:1:3:1" typref="2701647786">
+<Attr>
+<Pos l="26" c="29" s="2"/>
+</Attr>
+</Id>
+<Id value="width" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:4:1:3:2" typref="2701647786">
+<Attr>
+<Pos l="26" c="35" s="5"/>
+</Attr>
+</Id>
+</Exp_Comparison>
+<Exp_Comparison initialTag="(yy &lt;= height)" op="&lt;=">
+<Attr>
+<Pos l="26" c="46" s="2"/>
+</Attr>
+<Id value="yy" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:4:1:4:1" typref="2701647786">
+<Attr>
+<Pos l="26" c="43" s="2"/>
+</Attr>
+</Id>
+<Id value="height" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:4:1:4:2" typref="2701647786">
+<Attr>
+<Pos l="26" c="50" s="6"/>
+</Attr>
+</Id>
+</Exp_Comparison>
+<Exp_Comparison initialTag="((route) : (seq(maze)))" op=":">
+<Attr>
+<Pos l="26" c="65" s="1"/>
+</Attr>
+<Id value="route" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:4:1:5:1" typref="1905100487">
+<Attr>
+<Pos l="26" c="59" s="5"/>
+</Attr>
+</Id>
+<Unary_Exp typref="1382780156" op="seq">
+<Attr>
+<Pos l="26" c="67" s="3"/>
+</Attr>
+<Id value="maze" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:4:1:5:2:1" typref="103245008">
+<Attr>
+<Pos l="26" c="71" s="4"/>
+</Attr>
+</Id>
+</Unary_Exp>
+</Exp_Comparison>
+</Nary_Pred>
+</Nary_Pred>
+</Tag>
+</Binary_Pred>
+</Sub_Calculus>
+</Goal>
+</Proof_Obligation>
+<Proof_Obligation>
+<Comment>Operations dans une machine abstraite</Comment>
+<Tag>foundExit</Tag>
+<Tag>INVARIANT</Tag>
+<Definition name="B definitions"/>
+<Definition name="ctx"/>
+<Definition name="cst"/>
+<Definition name="lprp"/>
+<Definition name="inprp"/>
+<Definition name="inext"/>
+<Definition name="seext"/>
+<Definition name="inv"/>
+<Definition name="ass"/>
+<Hypothesis/>
+<Goal>
+<Sub_Calculus>
+<If_Sub elseif="no">
+<Attr>
+<Pos l="128" c="9" s="2"/>
+</Attr>
+<Condition>
+<Exp_Comparison op="=">
+<Attr>
+<Pos l="128" c="25" s="1"/>
+</Attr>
+<Binary_Exp typref="3672872563" op="|-&gt;">
+<Attr>
+<Pos l="128" c="17" s="3"/>
+</Attr>
+<Id value="xx" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:6:7:2:1:1:1:1:1" typref="2701647786">
+<Attr>
+<Pos l="128" c="14" s="2"/>
+</Attr>
+</Id>
+<Id value="yy" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:6:7:2:1:1:1:1:2" typref="2701647786">
+<Attr>
+<Pos l="128" c="21" s="2"/>
+</Attr>
+</Id>
+</Binary_Exp>
+<Id value="exit" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:6:7:2:1:1:1:2" typref="3672872563">
+<Attr>
+<Pos l="128" c="27" s="4"/>
+</Attr>
+</Id>
+</Exp_Comparison>
+</Condition>
+<Then>
+<Simple_Assignement_Sub>
+<Variables>
+<Id value="isExit" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:6:7:2:1:2:1:1:1" typref="1193619202">
+<Attr>
+<Pos l="130" c="13" s="6"/>
+</Attr>
+</Id>
+</Variables>
+<Values>
+<Id value="YES" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:6:7:2:1:2:1:2:1" typref="1193619202">
+<Attr>
+<Pos l="130" c="13" s="6"/>
+</Attr>
+</Id>
+</Values>
+</Simple_Assignement_Sub>
+</Then>
+<Else>
+<Simple_Assignement_Sub>
+<Variables>
+<Id value="isExit" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:6:7:2:1:3:1:1:1" typref="1193619202">
+<Attr>
+<Pos l="132" c="13" s="6"/>
+</Attr>
+</Id>
+</Variables>
+<Values>
+<Id value="NO" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:6:7:2:1:3:1:2:1" typref="1193619202">
+<Attr>
+<Pos l="132" c="13" s="6"/>
+</Attr>
+</Id>
+</Values>
+</Simple_Assignement_Sub>
+</Else>
+</If_Sub>
+<Binary_Pred op="=&gt;">
+<Nary_Pred op="&amp;"/>
+<Tag goalTag="Invariant is preserved">
+<Nary_Pred op="&amp;">
+<Attr>
+<Pos l="25" c="1" s="9"/>
+</Attr>
+<Nary_Pred op="&amp;">
+<Exp_Comparison initialTag="((xx) : ((NAT-{0})))" op=":">
+<Attr>
+<Pos l="26" c="8" s="1"/>
+</Attr>
+<Id value="xx" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:4:1:1:1" typref="2701647786">
+<Attr>
+<Pos l="26" c="5" s="2"/>
+</Attr>
+</Id>
+<Id value="NAT1" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:4:1:1:2" typref="3603043417">
+<Attr>
+<Pos l="26" c="10" s="4"/>
+</Attr>
+</Id>
+</Exp_Comparison>
+<Exp_Comparison initialTag="((yy) : ((NAT-{0})))" op=":">
+<Attr>
+<Pos l="26" c="20" s="1"/>
+</Attr>
+<Id value="yy" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:4:1:2:1" typref="2701647786">
+<Attr>
+<Pos l="26" c="17" s="2"/>
+</Attr>
+</Id>
+<Id value="NAT1" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:4:1:2:2" typref="3603043417">
+<Attr>
+<Pos l="26" c="22" s="4"/>
+</Attr>
+</Id>
+</Exp_Comparison>
+<Exp_Comparison initialTag="(xx &lt;= width)" op="&lt;=">
+<Attr>
+<Pos l="26" c="32" s="2"/>
+</Attr>
+<Id value="xx" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:4:1:3:1" typref="2701647786">
+<Attr>
+<Pos l="26" c="29" s="2"/>
+</Attr>
+</Id>
+<Id value="width" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:4:1:3:2" typref="2701647786">
+<Attr>
+<Pos l="26" c="35" s="5"/>
+</Attr>
+</Id>
+</Exp_Comparison>
+<Exp_Comparison initialTag="(yy &lt;= height)" op="&lt;=">
+<Attr>
+<Pos l="26" c="46" s="2"/>
+</Attr>
+<Id value="yy" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:4:1:4:1" typref="2701647786">
+<Attr>
+<Pos l="26" c="43" s="2"/>
+</Attr>
+</Id>
+<Id value="height" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:4:1:4:2" typref="2701647786">
+<Attr>
+<Pos l="26" c="50" s="6"/>
+</Attr>
+</Id>
+</Exp_Comparison>
+<Exp_Comparison initialTag="((route) : (seq(maze)))" op=":">
+<Attr>
+<Pos l="26" c="65" s="1"/>
+</Attr>
+<Id value="route" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:4:1:5:1" typref="1905100487">
+<Attr>
+<Pos l="26" c="59" s="5"/>
+</Attr>
+</Id>
+<Unary_Exp typref="1382780156" op="seq">
+<Attr>
+<Pos l="26" c="67" s="3"/>
+</Attr>
+<Id value="maze" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:4:1:5:2:1" typref="103245008">
+<Attr>
+<Pos l="26" c="71" s="4"/>
+</Attr>
+</Id>
+</Unary_Exp>
+</Exp_Comparison>
+</Nary_Pred>
+</Nary_Pred>
+</Tag>
+</Binary_Pred>
+</Sub_Calculus>
+</Goal>
+</Proof_Obligation>
+<Proof_Obligation>
+<Comment>Operations dans une machine abstraite</Comment>
+<Tag>visitedSquare</Tag>
+<Tag>INVARIANT</Tag>
+<Definition name="B definitions"/>
+<Definition name="ctx"/>
+<Definition name="cst"/>
+<Definition name="lprp"/>
+<Definition name="inprp"/>
+<Definition name="inext"/>
+<Definition name="seext"/>
+<Definition name="inv"/>
+<Definition name="ass"/>
+<Hypothesis>
+<Nary_Pred op="&amp;">
+<Exp_Comparison op=":">
+<Attr>
+<Pos l="140" c="14" s="1"/>
+</Attr>
+<Id value="xpos" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:6:8:3:1:1:1" typref="2701647786">
+<Attr>
+<Pos l="140" c="9" s="4"/>
+</Attr>
+</Id>
+<Id value="NAT1" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:6:8:3:1:1:2" typref="3603043417">
+<Attr>
+<Pos l="140" c="16" s="4"/>
+</Attr>
+</Id>
+</Exp_Comparison>
+<Exp_Comparison op=":">
+<Attr>
+<Pos l="140" c="28" s="1"/>
+</Attr>
+<Id value="ypos" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:6:8:3:1:2:1" typref="2701647786">
+<Attr>
+<Pos l="140" c="23" s="4"/>
+</Attr>
+</Id>
+<Id value="NAT1" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:6:8:3:1:2:2" typref="3603043417">
+<Attr>
+<Pos l="140" c="30" s="4"/>
+</Attr>
+</Id>
+</Exp_Comparison>
+<Exp_Comparison op="&lt;=">
+<Attr>
+<Pos l="18" expanded="yes" c="38" s="2"/>
+<Pos l="140" c="37" s="8"/>
+</Attr>
+<Id value="xpos" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:6:8:3:1:3:1:1" typref="2701647786">
+<Attr>
+<Pos l="140" expanded="yes" c="46" s="4"/>
+<Pos l="140" c="37" s="8"/>
+</Attr>
+</Id>
+<Id value="width" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:6:8:3:1:3:1:2" typref="2701647786">
+<Attr>
+<Pos l="18" expanded="yes" c="41" s="5"/>
+<Pos l="140" c="37" s="8"/>
+</Attr>
+</Id>
+</Exp_Comparison>
+<Exp_Comparison op="&lt;=">
+<Attr>
+<Pos l="18" expanded="yes" c="54" s="2"/>
+<Pos l="140" c="37" s="8"/>
+</Attr>
+<Id value="ypos" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:6:8:3:1:3:2:1" typref="2701647786">
+<Attr>
+<Pos l="140" expanded="yes" c="52" s="4"/>
+<Pos l="140" c="37" s="8"/>
+</Attr>
+</Id>
+<Id value="height" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:6:8:3:1:3:2:2" typref="2701647786">
+<Attr>
+<Pos l="18" expanded="yes" c="57" s="6"/>
+<Pos l="140" c="37" s="8"/>
+</Attr>
+</Id>
+</Exp_Comparison>
+</Nary_Pred>
+</Hypothesis>
+<Goal>
+<Sub_Calculus>
+<If_Sub elseif="no">
+<Attr>
+<Pos l="142" c="9" s="2"/>
+</Attr>
+<Condition>
+<Exp_Comparison op=":">
+<Attr>
+<Pos l="142" c="30" s="1"/>
+</Attr>
+<Binary_Exp typref="3672872563" op="|-&gt;">
+<Attr>
+<Pos l="142" c="19" s="3"/>
+</Attr>
+<Id value="xpos" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:6:8:4:1:1:1:1:1" typref="2701647786">
+<Attr>
+<Pos l="142" c="14" s="4"/>
+</Attr>
+</Id>
+<Id value="ypos" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:6:8:4:1:1:1:1:2" typref="2701647786">
+<Attr>
+<Pos l="142" c="24" s="4"/>
+</Attr>
+</Id>
+</Binary_Exp>
+<Unary_Exp typref="103245008" op="ran">
+<Attr>
+<Pos l="142" c="32" s="3"/>
+</Attr>
+<Id value="route" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:6:8:4:1:1:1:2:1" typref="1905100487">
+<Attr>
+<Pos l="142" c="36" s="5"/>
+</Attr>
+</Id>
+</Unary_Exp>
+</Exp_Comparison>
+</Condition>
+<Then>
+<Simple_Assignement_Sub>
+<Variables>
+<Id value="isVisited" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:6:8:4:1:2:1:1:1" typref="1193619202">
+<Attr>
+<Pos l="144" c="13" s="9"/>
+</Attr>
+</Id>
+</Variables>
+<Values>
+<Id value="YES" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:6:8:4:1:2:1:2:1" typref="1193619202">
+<Attr>
+<Pos l="144" c="13" s="9"/>
+</Attr>
+</Id>
+</Values>
+</Simple_Assignement_Sub>
+</Then>
+<Else>
+<Simple_Assignement_Sub>
+<Variables>
+<Id value="isVisited" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:6:8:4:1:3:1:1:1" typref="1193619202">
+<Attr>
+<Pos l="146" c="13" s="9"/>
+</Attr>
+</Id>
+</Variables>
+<Values>
+<Id value="NO" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:6:8:4:1:3:1:2:1" typref="1193619202">
+<Attr>
+<Pos l="146" c="13" s="9"/>
+</Attr>
+</Id>
+</Values>
+</Simple_Assignement_Sub>
+</Else>
+</If_Sub>
+<Binary_Pred op="=&gt;">
+<Nary_Pred op="&amp;"/>
+<Tag goalTag="Invariant is preserved">
+<Nary_Pred op="&amp;">
+<Attr>
+<Pos l="25" c="1" s="9"/>
+</Attr>
+<Nary_Pred op="&amp;">
+<Exp_Comparison initialTag="((xx) : ((NAT-{0})))" op=":">
+<Attr>
+<Pos l="26" c="8" s="1"/>
+</Attr>
+<Id value="xx" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:4:1:1:1" typref="2701647786">
+<Attr>
+<Pos l="26" c="5" s="2"/>
+</Attr>
+</Id>
+<Id value="NAT1" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:4:1:1:2" typref="3603043417">
+<Attr>
+<Pos l="26" c="10" s="4"/>
+</Attr>
+</Id>
+</Exp_Comparison>
+<Exp_Comparison initialTag="((yy) : ((NAT-{0})))" op=":">
+<Attr>
+<Pos l="26" c="20" s="1"/>
+</Attr>
+<Id value="yy" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:4:1:2:1" typref="2701647786">
+<Attr>
+<Pos l="26" c="17" s="2"/>
+</Attr>
+</Id>
+<Id value="NAT1" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:4:1:2:2" typref="3603043417">
+<Attr>
+<Pos l="26" c="22" s="4"/>
+</Attr>
+</Id>
+</Exp_Comparison>
+<Exp_Comparison initialTag="(xx &lt;= width)" op="&lt;=">
+<Attr>
+<Pos l="26" c="32" s="2"/>
+</Attr>
+<Id value="xx" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:4:1:3:1" typref="2701647786">
+<Attr>
+<Pos l="26" c="29" s="2"/>
+</Attr>
+</Id>
+<Id value="width" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:4:1:3:2" typref="2701647786">
+<Attr>
+<Pos l="26" c="35" s="5"/>
+</Attr>
+</Id>
+</Exp_Comparison>
+<Exp_Comparison initialTag="(yy &lt;= height)" op="&lt;=">
+<Attr>
+<Pos l="26" c="46" s="2"/>
+</Attr>
+<Id value="yy" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:4:1:4:1" typref="2701647786">
+<Attr>
+<Pos l="26" c="43" s="2"/>
+</Attr>
+</Id>
+<Id value="height" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:4:1:4:2" typref="2701647786">
+<Attr>
+<Pos l="26" c="50" s="6"/>
+</Attr>
+</Id>
+</Exp_Comparison>
+<Exp_Comparison initialTag="((route) : (seq(maze)))" op=":">
+<Attr>
+<Pos l="26" c="65" s="1"/>
+</Attr>
+<Id value="route" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:4:1:5:1" typref="1905100487">
+<Attr>
+<Pos l="26" c="59" s="5"/>
+</Attr>
+</Id>
+<Unary_Exp typref="1382780156" op="seq">
+<Attr>
+<Pos l="26" c="67" s="3"/>
+</Attr>
+<Id value="maze" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:4:1:5:2:1" typref="103245008">
+<Attr>
+<Pos l="26" c="71" s="4"/>
+</Attr>
+</Id>
+</Unary_Exp>
+</Exp_Comparison>
+</Nary_Pred>
+</Nary_Pred>
+</Tag>
+</Binary_Pred>
+</Sub_Calculus>
+</Goal>
+</Proof_Obligation>
+<Proof_Obligation>
+<Comment>Operations dans une machine abstraite</Comment>
+<Tag>robotsRoute</Tag>
+<Tag>INVARIANT</Tag>
+<Definition name="B definitions"/>
+<Definition name="ctx"/>
+<Definition name="cst"/>
+<Definition name="lprp"/>
+<Definition name="inprp"/>
+<Definition name="inext"/>
+<Definition name="seext"/>
+<Definition name="inv"/>
+<Definition name="ass"/>
+<Hypothesis/>
+<Goal>
+<Sub_Calculus>
+<Simple_Assignement_Sub>
+<Variables>
+<Id value="route_path" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:6:9:2:1:1:1" typref="1905100487">
+<Attr>
+<Pos l="154" c="9" s="10"/>
+</Attr>
+</Id>
+</Variables>
+<Values>
+<Id value="route" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:6:9:2:1:2:1" typref="1905100487">
+<Attr>
+<Pos l="154" c="9" s="10"/>
+</Attr>
+</Id>
+</Values>
+</Simple_Assignement_Sub>
+<Binary_Pred op="=&gt;">
+<Nary_Pred op="&amp;"/>
+<Tag goalTag="Invariant is preserved">
+<Nary_Pred op="&amp;">
+<Attr>
+<Pos l="25" c="1" s="9"/>
+</Attr>
+<Nary_Pred op="&amp;">
+<Exp_Comparison initialTag="((xx) : ((NAT-{0})))" op=":">
+<Attr>
+<Pos l="26" c="8" s="1"/>
+</Attr>
+<Id value="xx" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:4:1:1:1" typref="2701647786">
+<Attr>
+<Pos l="26" c="5" s="2"/>
+</Attr>
+</Id>
+<Id value="NAT1" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:4:1:1:2" typref="3603043417">
+<Attr>
+<Pos l="26" c="10" s="4"/>
+</Attr>
+</Id>
+</Exp_Comparison>
+<Exp_Comparison initialTag="((yy) : ((NAT-{0})))" op=":">
+<Attr>
+<Pos l="26" c="20" s="1"/>
+</Attr>
+<Id value="yy" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:4:1:2:1" typref="2701647786">
+<Attr>
+<Pos l="26" c="17" s="2"/>
+</Attr>
+</Id>
+<Id value="NAT1" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:4:1:2:2" typref="3603043417">
+<Attr>
+<Pos l="26" c="22" s="4"/>
+</Attr>
+</Id>
+</Exp_Comparison>
+<Exp_Comparison initialTag="(xx &lt;= width)" op="&lt;=">
+<Attr>
+<Pos l="26" c="32" s="2"/>
+</Attr>
+<Id value="xx" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:4:1:3:1" typref="2701647786">
+<Attr>
+<Pos l="26" c="29" s="2"/>
+</Attr>
+</Id>
+<Id value="width" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:4:1:3:2" typref="2701647786">
+<Attr>
+<Pos l="26" c="35" s="5"/>
+</Attr>
+</Id>
+</Exp_Comparison>
+<Exp_Comparison initialTag="(yy &lt;= height)" op="&lt;=">
+<Attr>
+<Pos l="26" c="46" s="2"/>
+</Attr>
+<Id value="yy" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:4:1:4:1" typref="2701647786">
+<Attr>
+<Pos l="26" c="43" s="2"/>
+</Attr>
+</Id>
+<Id value="height" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:4:1:4:2" typref="2701647786">
+<Attr>
+<Pos l="26" c="50" s="6"/>
+</Attr>
+</Id>
+</Exp_Comparison>
+<Exp_Comparison initialTag="((route) : (seq(maze)))" op=":">
+<Attr>
+<Pos l="26" c="65" s="1"/>
+</Attr>
+<Id value="route" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:4:1:5:1" typref="1905100487">
+<Attr>
+<Pos l="26" c="59" s="5"/>
+</Attr>
+</Id>
+<Unary_Exp typref="1382780156" op="seq">
+<Attr>
+<Pos l="26" c="67" s="3"/>
+</Attr>
+<Id value="maze" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:4:1:5:2:1" typref="103245008">
+<Attr>
+<Pos l="26" c="71" s="4"/>
+</Attr>
+</Id>
+</Unary_Exp>
+</Exp_Comparison>
+</Nary_Pred>
+</Nary_Pred>
+</Tag>
+</Binary_Pred>
+</Sub_Calculus>
+</Goal>
+</Proof_Obligation>
+<Proof_Obligation>
+<Tag>WellDefinednessConstraints</Tag>
+<Goal>
+<Tag goalTag="Well definedness">
+<Nary_Pred op="&amp;"/>
+</Tag>
+</Goal>
+</Proof_Obligation>
+<Proof_Obligation>
+<Tag>WellDefinednessProperties</Tag>
+<Definition name="B definitions"/>
+<Definition name="ctx"/>
+<Definition name="cst"/>
+<Hypothesis>
+<Attr>
+<Pos l="11" c="1" s="4"/>
+</Attr>
+<Set>
+<Id value="STATES" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:2:1:1" typref="1949851095">
+<Attr>
+<Pos l="12" c="5" s="6"/>
+</Attr>
+</Id>
+<Enumerated_Values>
+<Id value="FAILED_WALL" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:2:1:2:1" typref="1193619202">
+<Attr>
+<Pos l="12" c="16" s="11"/>
+</Attr>
+</Id>
+<Id value="FAILED_MAZE_BOUNDARY" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:2:1:2:2" typref="1193619202">
+<Attr>
+<Pos l="12" c="29" s="20"/>
+</Attr>
+</Id>
+<Id value="FAILED_FIRST_MOVE" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:2:1:2:3" typref="1193619202">
+<Attr>
+<Pos l="13" c="9" s="17"/>
+</Attr>
+</Id>
+<Id value="MOVE_SUCCESS" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:2:1:2:4" typref="1193619202">
+<Attr>
+<Pos l="13" c="28" s="12"/>
+</Attr>
+</Id>
+<Id value="YES" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:2:1:2:5" typref="1193619202">
+<Attr>
+<Pos l="13" c="42" s="3"/>
+</Attr>
+</Id>
+<Id value="NO" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:2:1:2:6" typref="1193619202">
+<Attr>
+<Pos l="13" c="47" s="2"/>
+</Attr>
+</Id>
+</Enumerated_Values>
+</Set>
+</Hypothesis>
+<Goal>
+<Tag goalTag="Well definedness">
+<Nary_Pred op="&amp;"/>
+</Tag>
+</Goal>
+</Proof_Obligation>
+<Proof_Obligation>
+<Tag>WellDefinednessInvariant</Tag>
+<Definition name="B definitions"/>
+<Definition name="ctx"/>
+<Definition name="cst"/>
+<Definition name="lprp"/>
+<Definition name="inprp"/>
+<Definition name="inext"/>
+<Definition name="seext"/>
+<Goal>
+<Tag goalTag="Well definedness">
+<Nary_Pred op="&amp;">
+<Nary_Pred op="&amp;">
+<Binary_Pred op="&amp;">
+<Nary_Pred op="&amp;"/>
+<Nary_Pred op="&amp;"/>
+</Binary_Pred>
+<Binary_Pred op="=&gt;">
+<Exp_Comparison initialTag="((xx) : ((NAT-{0})))" op=":">
+<Attr>
+<Pos l="26" c="8" s="1"/>
+</Attr>
+<Id value="xx" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:4:1:1:1" typref="2701647786">
+<Attr>
+<Pos l="26" c="5" s="2"/>
+</Attr>
+</Id>
+<Id value="NAT1" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:4:1:1:2" typref="3603043417">
+<Attr>
+<Pos l="26" c="10" s="4"/>
+</Attr>
+</Id>
+</Exp_Comparison>
+<Nary_Pred op="&amp;">
+<Binary_Pred op="&amp;">
+<Nary_Pred op="&amp;"/>
+<Nary_Pred op="&amp;"/>
+</Binary_Pred>
+<Binary_Pred op="=&gt;">
+<Exp_Comparison initialTag="((yy) : ((NAT-{0})))" op=":">
+<Attr>
+<Pos l="26" c="20" s="1"/>
+</Attr>
+<Id value="yy" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:4:1:2:1" typref="2701647786">
+<Attr>
+<Pos l="26" c="17" s="2"/>
+</Attr>
+</Id>
+<Id value="NAT1" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:4:1:2:2" typref="3603043417">
+<Attr>
+<Pos l="26" c="22" s="4"/>
+</Attr>
+</Id>
+</Exp_Comparison>
+<Nary_Pred op="&amp;">
+<Binary_Pred op="&amp;">
+<Nary_Pred op="&amp;"/>
+<Nary_Pred op="&amp;"/>
+</Binary_Pred>
+<Binary_Pred op="=&gt;">
+<Exp_Comparison initialTag="(xx &lt;= width)" op="&lt;=">
+<Attr>
+<Pos l="26" c="32" s="2"/>
+</Attr>
+<Id value="xx" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:4:1:3:1" typref="2701647786">
+<Attr>
+<Pos l="26" c="29" s="2"/>
+</Attr>
+</Id>
+<Id value="width" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:4:1:3:2" typref="2701647786">
+<Attr>
+<Pos l="26" c="35" s="5"/>
+</Attr>
+</Id>
+</Exp_Comparison>
+<Nary_Pred op="&amp;">
+<Binary_Pred op="&amp;">
+<Nary_Pred op="&amp;"/>
+<Nary_Pred op="&amp;"/>
+</Binary_Pred>
+<Binary_Pred op="=&gt;">
+<Exp_Comparison initialTag="(yy &lt;= height)" op="&lt;=">
+<Attr>
+<Pos l="26" c="46" s="2"/>
+</Attr>
+<Id value="yy" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:4:1:4:1" typref="2701647786">
+<Attr>
+<Pos l="26" c="43" s="2"/>
+</Attr>
+</Id>
+<Id value="height" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:4:1:4:2" typref="2701647786">
+<Attr>
+<Pos l="26" c="50" s="6"/>
+</Attr>
+</Id>
+</Exp_Comparison>
+<Nary_Pred op="&amp;">
+<Binary_Pred op="&amp;">
+<Nary_Pred op="&amp;"/>
+<Nary_Pred op="&amp;"/>
+</Binary_Pred>
+</Nary_Pred>
+</Binary_Pred>
+</Nary_Pred>
+</Binary_Pred>
+</Nary_Pred>
+</Binary_Pred>
+</Nary_Pred>
+</Binary_Pred>
+</Nary_Pred>
+</Nary_Pred>
+</Tag>
+</Goal>
+</Proof_Obligation>
+<Proof_Obligation>
+<Tag>WellDefinednessInitialisation</Tag>
+<Definition name="B definitions"/>
+<Definition name="ctx"/>
+<Definition name="cst"/>
+<Definition name="lprp"/>
+<Definition name="inprp"/>
+<Definition name="inext"/>
+<Definition name="seext"/>
+<Goal>
+<Tag goalTag="Well definedness">
+<Nary_Pred op="&amp;">
+<Nary_Pred op="&amp;">
+<Nary_Pred op="&amp;"/>
+<Nary_Pred op="&amp;"/>
+<Nary_Pred op="&amp;"/>
+</Nary_Pred>
+</Nary_Pred>
+</Tag>
+</Goal>
+</Proof_Obligation>
+<Proof_Obligation>
+<Comment>Operations dans une machine abstraite</Comment>
+<Tag>WellDefinedness_Precondition_getPosition</Tag>
+<Tag>INVARIANT</Tag>
+<Definition name="B definitions"/>
+<Definition name="ctx"/>
+<Definition name="cst"/>
+<Definition name="lprp"/>
+<Definition name="inprp"/>
+<Definition name="inext"/>
+<Definition name="seext"/>
+<Definition name="inv"/>
+<Definition name="ass"/>
+<Goal>
+<Tag goalTag="Well definedness">
+<Nary_Pred op="&amp;"/>
+</Tag>
+</Goal>
+</Proof_Obligation>
+<Proof_Obligation>
+<Comment>Operations dans une machine abstraite</Comment>
+<Tag>WellDefinedness_getPosition</Tag>
+<Tag>INVARIANT</Tag>
+<Definition name="B definitions"/>
+<Definition name="ctx"/>
+<Definition name="cst"/>
+<Definition name="lprp"/>
+<Definition name="inprp"/>
+<Definition name="inext"/>
+<Definition name="seext"/>
+<Definition name="inv"/>
+<Definition name="ass"/>
+<Hypothesis/>
+<Goal>
+<Tag goalTag="Well definedness">
+<Nary_Pred op="&amp;">
+<Nary_Pred op="&amp;">
+<Binary_Pred op="&amp;">
+<Nary_Pred op="&amp;"/>
+<Nary_Pred op="&amp;"/>
+</Binary_Pred>
+</Nary_Pred>
+</Nary_Pred>
+</Tag>
+</Goal>
+</Proof_Obligation>
+<Proof_Obligation>
+<Comment>Operations dans une machine abstraite</Comment>
+<Tag>WellDefinedness_Precondition_MoveNorth</Tag>
+<Tag>INVARIANT</Tag>
+<Definition name="B definitions"/>
+<Definition name="ctx"/>
+<Definition name="cst"/>
+<Definition name="lprp"/>
+<Definition name="inprp"/>
+<Definition name="inext"/>
+<Definition name="seext"/>
+<Definition name="inv"/>
+<Definition name="ass"/>
+<Goal>
+<Tag goalTag="Well definedness">
+<Nary_Pred op="&amp;"/>
+</Tag>
+</Goal>
+</Proof_Obligation>
+<Proof_Obligation>
+<Comment>Operations dans une machine abstraite</Comment>
+<Tag>WellDefinedness_MoveNorth</Tag>
+<Tag>INVARIANT</Tag>
+<Definition name="B definitions"/>
+<Definition name="ctx"/>
+<Definition name="cst"/>
+<Definition name="lprp"/>
+<Definition name="inprp"/>
+<Definition name="inext"/>
+<Definition name="seext"/>
+<Definition name="inv"/>
+<Definition name="ass"/>
+<Hypothesis/>
+<Goal>
+<Tag goalTag="Well definedness">
+<Nary_Pred op="&amp;">
+<Nary_Pred op="&amp;">
+<Binary_Pred op="&amp;">
+<Binary_Pred op="&amp;">
+<Nary_Pred op="&amp;"/>
+<Binary_Pred op="&amp;">
+<Nary_Pred op="&amp;"/>
+<Nary_Pred op="&amp;"/>
+</Binary_Pred>
+</Binary_Pred>
+<Nary_Pred op="&amp;"/>
+</Binary_Pred>
+<Binary_Pred op="=&gt;">
+<Exp_Comparison op=":">
+<Attr>
+<Pos l="16" expanded="yes" c="35" s="1"/>
+<Pos l="44" c="14" s="6"/>
+</Attr>
+<Binary_Exp op="|-&gt;">
+<Id value="xx" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:6:2:2:1:1:1:1:1" typref="2701647786">
+<Attr>
+<Pos l="44" expanded="yes" c="22" s="2"/>
+<Pos l="44" c="14" s="6"/>
+</Attr>
+</Id>
+<Binary_Exp typref="2701647786" op="+">
+<Attr>
+<Pos l="44" expanded="yes" c="32" s="1"/>
+<Pos l="44" c="14" s="6"/>
+</Attr>
+<Id value="yy" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:6:2:2:1:1:1:1:2:1" typref="2701647786">
+<Attr>
+<Pos l="44" expanded="yes" c="30" s="2"/>
+<Pos l="44" c="14" s="6"/>
+</Attr>
+</Id>
+<Integer_Literal value="1" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:6:2:2:1:1:1:1:2:2" typref="2701647786">
+<Attr>
+<Pos l="44" expanded="yes" c="33" s="1"/>
+<Pos l="44" c="14" s="6"/>
+</Attr>
+</Integer_Literal>
+</Binary_Exp>
+</Binary_Exp>
+<Id value="walls" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:6:2:2:1:1:1:2" typref="103245008">
+<Attr>
+<Pos l="16" expanded="yes" c="37" s="5"/>
+<Pos l="44" c="14" s="6"/>
+</Attr>
+</Id>
+</Exp_Comparison>
+<Nary_Pred op="&amp;">
+<Nary_Pred op="&amp;"/>
+</Nary_Pred>
+</Binary_Pred>
+<Binary_Pred op="=&gt;">
+<Unary_Pred op="not">
+<Exp_Comparison op=":">
+<Attr>
+<Pos l="16" expanded="yes" c="35" s="1"/>
+<Pos l="44" c="14" s="6"/>
+</Attr>
+<Binary_Exp op="|-&gt;">
+<Id value="xx" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:6:2:2:1:1:1:1:1" typref="2701647786">
+<Attr>
+<Pos l="44" expanded="yes" c="22" s="2"/>
+<Pos l="44" c="14" s="6"/>
+</Attr>
+</Id>
+<Binary_Exp typref="2701647786" op="+">
+<Attr>
+<Pos l="44" expanded="yes" c="32" s="1"/>
+<Pos l="44" c="14" s="6"/>
+</Attr>
+<Id value="yy" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:6:2:2:1:1:1:1:2:1" typref="2701647786">
+<Attr>
+<Pos l="44" expanded="yes" c="30" s="2"/>
+<Pos l="44" c="14" s="6"/>
+</Attr>
+</Id>
+<Integer_Literal value="1" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:6:2:2:1:1:1:1:2:2" typref="2701647786">
+<Attr>
+<Pos l="44" expanded="yes" c="33" s="1"/>
+<Pos l="44" c="14" s="6"/>
+</Attr>
+</Integer_Literal>
+</Binary_Exp>
+</Binary_Exp>
+<Id value="walls" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:6:2:2:1:1:1:2" typref="103245008">
+<Attr>
+<Pos l="16" expanded="yes" c="37" s="5"/>
+<Pos l="44" c="14" s="6"/>
+</Attr>
+</Id>
+</Exp_Comparison>
+</Unary_Pred>
+<Nary_Pred op="&amp;">
+<Nary_Pred op="&amp;">
+<Binary_Pred op="&amp;">
+<Binary_Pred op="&amp;">
+<Nary_Pred op="&amp;"/>
+<Binary_Pred op="&amp;">
+<Nary_Pred op="&amp;"/>
+<Nary_Pred op="&amp;"/>
+</Binary_Pred>
+</Binary_Pred>
+<Nary_Pred op="&amp;"/>
+</Binary_Pred>
+<Binary_Pred op="=&gt;">
+<Exp_Comparison op="/:">
+<Attr>
+<Pos l="17" expanded="yes" c="38" s="2"/>
+<Pos l="47" c="16" s="10"/>
+</Attr>
+<Binary_Exp typref="3672872563" op="|-&gt;">
+<Attr>
+<Pos l="47" expanded="yes" c="30" s="3"/>
+<Pos l="47" c="16" s="10"/>
+</Attr>
+<Id value="xx" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:6:2:2:1:3:1:1:1:1:1" typref="2701647786">
+<Attr>
+<Pos l="47" expanded="yes" c="27" s="2"/>
+<Pos l="47" c="16" s="10"/>
+</Attr>
+</Id>
+<Binary_Exp typref="2701647786" op="+">
+<Attr>
+<Pos l="47" expanded="yes" c="37" s="1"/>
+<Pos l="47" c="16" s="10"/>
+</Attr>
+<Id value="yy" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:6:2:2:1:3:1:1:1:1:2:1" typref="2701647786">
+<Attr>
+<Pos l="47" expanded="yes" c="35" s="2"/>
+<Pos l="47" c="16" s="10"/>
+</Attr>
+</Id>
+<Integer_Literal value="1" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:6:2:2:1:3:1:1:1:1:2:2" typref="2701647786">
+<Attr>
+<Pos l="47" expanded="yes" c="38" s="1"/>
+<Pos l="47" c="16" s="10"/>
+</Attr>
+</Integer_Literal>
+</Binary_Exp>
+</Binary_Exp>
+<Id value="maze" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:6:2:2:1:3:1:1:1:2" typref="103245008">
+<Attr>
+<Pos l="17" expanded="yes" c="41" s="4"/>
+<Pos l="47" c="16" s="10"/>
+</Attr>
+</Id>
+</Exp_Comparison>
+<Nary_Pred op="&amp;">
+<Nary_Pred op="&amp;"/>
+</Nary_Pred>
+</Binary_Pred>
+<Binary_Pred op="=&gt;">
+<Unary_Pred op="not">
+<Exp_Comparison op="/:">
+<Attr>
+<Pos l="17" expanded="yes" c="38" s="2"/>
+<Pos l="47" c="16" s="10"/>
+</Attr>
+<Binary_Exp typref="3672872563" op="|-&gt;">
+<Attr>
+<Pos l="47" expanded="yes" c="30" s="3"/>
+<Pos l="47" c="16" s="10"/>
+</Attr>
+<Id value="xx" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:6:2:2:1:3:1:1:1:1:1" typref="2701647786">
+<Attr>
+<Pos l="47" expanded="yes" c="27" s="2"/>
+<Pos l="47" c="16" s="10"/>
+</Attr>
+</Id>
+<Binary_Exp typref="2701647786" op="+">
+<Attr>
+<Pos l="47" expanded="yes" c="37" s="1"/>
+<Pos l="47" c="16" s="10"/>
+</Attr>
+<Id value="yy" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:6:2:2:1:3:1:1:1:1:2:1" typref="2701647786">
+<Attr>
+<Pos l="47" expanded="yes" c="35" s="2"/>
+<Pos l="47" c="16" s="10"/>
+</Attr>
+</Id>
+<Integer_Literal value="1" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:6:2:2:1:3:1:1:1:1:2:2" typref="2701647786">
+<Attr>
+<Pos l="47" expanded="yes" c="38" s="1"/>
+<Pos l="47" c="16" s="10"/>
+</Attr>
+</Integer_Literal>
+</Binary_Exp>
+</Binary_Exp>
+<Id value="maze" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:6:2:2:1:3:1:1:1:2" typref="103245008">
+<Attr>
+<Pos l="17" expanded="yes" c="41" s="4"/>
+<Pos l="47" c="16" s="10"/>
+</Attr>
+</Id>
+</Exp_Comparison>
+</Unary_Pred>
+<Nary_Pred op="&amp;">
+<Nary_Pred op="&amp;">
+<Nary_Pred op="&amp;">
+<Nary_Pred op="&amp;">
+<Nary_Pred op="&amp;"/>
+<Binary_Pred op="&amp;">
+<Nary_Pred op="&amp;"/>
+<Nary_Pred op="&amp;"/>
+</Binary_Pred>
+<Exp_Comparison op=":">
+<Id value="route" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:6:2:2:1:3:1:3:1:1:2:1:1" typref="1905100487">
+<Attr>
+<Pos l="51" c="24" s="5"/>
+</Attr>
+</Id>
+<Unary_Exp op="seq">
+<Unary_Exp op="ran">
+<Id value="route" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:6:2:2:1:3:1:3:1:1:2:1:1" typref="1905100487">
+<Attr>
+<Pos l="51" c="24" s="5"/>
+</Attr>
+</Id>
+</Unary_Exp>
+</Unary_Exp>
+</Exp_Comparison>
+</Nary_Pred>
+</Nary_Pred>
+<Nary_Pred op="&amp;">
+<Binary_Pred op="&amp;">
+<Nary_Pred op="&amp;"/>
+<Nary_Pred op="&amp;"/>
+</Binary_Pred>
+<Nary_Pred op="&amp;"/>
+</Nary_Pred>
+</Nary_Pred>
+</Nary_Pred>
+</Binary_Pred>
+</Nary_Pred>
+</Nary_Pred>
+</Binary_Pred>
+</Nary_Pred>
+</Nary_Pred>
+</Tag>
+</Goal>
+</Proof_Obligation>
+<Proof_Obligation>
+<Comment>Operations dans une machine abstraite</Comment>
+<Tag>WellDefinedness_Precondition_MoveSouth</Tag>
+<Tag>INVARIANT</Tag>
+<Definition name="B definitions"/>
+<Definition name="ctx"/>
+<Definition name="cst"/>
+<Definition name="lprp"/>
+<Definition name="inprp"/>
+<Definition name="inext"/>
+<Definition name="seext"/>
+<Definition name="inv"/>
+<Definition name="ass"/>
+<Goal>
+<Tag goalTag="Well definedness">
+<Nary_Pred op="&amp;"/>
+</Tag>
+</Goal>
+</Proof_Obligation>
+<Proof_Obligation>
+<Comment>Operations dans une machine abstraite</Comment>
+<Tag>WellDefinedness_MoveSouth</Tag>
+<Tag>INVARIANT</Tag>
+<Definition name="B definitions"/>
+<Definition name="ctx"/>
+<Definition name="cst"/>
+<Definition name="lprp"/>
+<Definition name="inprp"/>
+<Definition name="inext"/>
+<Definition name="seext"/>
+<Definition name="inv"/>
+<Definition name="ass"/>
+<Hypothesis/>
+<Goal>
+<Tag goalTag="Well definedness">
+<Nary_Pred op="&amp;">
+<Nary_Pred op="&amp;">
+<Binary_Pred op="&amp;">
+<Binary_Pred op="&amp;">
+<Nary_Pred op="&amp;"/>
+<Binary_Pred op="&amp;">
+<Nary_Pred op="&amp;"/>
+<Nary_Pred op="&amp;"/>
+</Binary_Pred>
+</Binary_Pred>
+<Nary_Pred op="&amp;"/>
+</Binary_Pred>
+<Binary_Pred op="=&gt;">
+<Exp_Comparison op=":">
+<Attr>
+<Pos l="16" expanded="yes" c="35" s="1"/>
+<Pos l="60" c="14" s="6"/>
+</Attr>
+<Binary_Exp op="|-&gt;">
+<Id value="xx" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:6:3:2:1:1:1:1:1" typref="2701647786">
+<Attr>
+<Pos l="60" expanded="yes" c="22" s="2"/>
+<Pos l="60" c="14" s="6"/>
+</Attr>
+</Id>
+<Binary_Exp typref="2701647786" op="-">
+<Attr>
+<Pos l="60" expanded="yes" c="32" s="1"/>
+<Pos l="60" c="14" s="6"/>
+</Attr>
+<Id value="yy" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:6:3:2:1:1:1:1:2:1" typref="2701647786">
+<Attr>
+<Pos l="60" expanded="yes" c="30" s="2"/>
+<Pos l="60" c="14" s="6"/>
+</Attr>
+</Id>
+<Integer_Literal value="1" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:6:3:2:1:1:1:1:2:2" typref="2701647786">
+<Attr>
+<Pos l="60" expanded="yes" c="33" s="1"/>
+<Pos l="60" c="14" s="6"/>
+</Attr>
+</Integer_Literal>
+</Binary_Exp>
+</Binary_Exp>
+<Id value="walls" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:6:3:2:1:1:1:2" typref="103245008">
+<Attr>
+<Pos l="16" expanded="yes" c="37" s="5"/>
+<Pos l="60" c="14" s="6"/>
+</Attr>
+</Id>
+</Exp_Comparison>
+<Nary_Pred op="&amp;">
+<Nary_Pred op="&amp;"/>
+</Nary_Pred>
+</Binary_Pred>
+<Binary_Pred op="=&gt;">
+<Unary_Pred op="not">
+<Exp_Comparison op=":">
+<Attr>
+<Pos l="16" expanded="yes" c="35" s="1"/>
+<Pos l="60" c="14" s="6"/>
+</Attr>
+<Binary_Exp op="|-&gt;">
+<Id value="xx" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:6:3:2:1:1:1:1:1" typref="2701647786">
+<Attr>
+<Pos l="60" expanded="yes" c="22" s="2"/>
+<Pos l="60" c="14" s="6"/>
+</Attr>
+</Id>
+<Binary_Exp typref="2701647786" op="-">
+<Attr>
+<Pos l="60" expanded="yes" c="32" s="1"/>
+<Pos l="60" c="14" s="6"/>
+</Attr>
+<Id value="yy" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:6:3:2:1:1:1:1:2:1" typref="2701647786">
+<Attr>
+<Pos l="60" expanded="yes" c="30" s="2"/>
+<Pos l="60" c="14" s="6"/>
+</Attr>
+</Id>
+<Integer_Literal value="1" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:6:3:2:1:1:1:1:2:2" typref="2701647786">
+<Attr>
+<Pos l="60" expanded="yes" c="33" s="1"/>
+<Pos l="60" c="14" s="6"/>
+</Attr>
+</Integer_Literal>
+</Binary_Exp>
+</Binary_Exp>
+<Id value="walls" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:6:3:2:1:1:1:2" typref="103245008">
+<Attr>
+<Pos l="16" expanded="yes" c="37" s="5"/>
+<Pos l="60" c="14" s="6"/>
+</Attr>
+</Id>
+</Exp_Comparison>
+</Unary_Pred>
+<Nary_Pred op="&amp;">
+<Nary_Pred op="&amp;">
+<Binary_Pred op="&amp;">
+<Binary_Pred op="&amp;">
+<Nary_Pred op="&amp;"/>
+<Binary_Pred op="&amp;">
+<Nary_Pred op="&amp;"/>
+<Nary_Pred op="&amp;"/>
+</Binary_Pred>
+</Binary_Pred>
+<Nary_Pred op="&amp;"/>
+</Binary_Pred>
+<Binary_Pred op="=&gt;">
+<Exp_Comparison op="/:">
+<Attr>
+<Pos l="17" expanded="yes" c="38" s="2"/>
+<Pos l="63" c="16" s="10"/>
+</Attr>
+<Binary_Exp typref="3672872563" op="|-&gt;">
+<Attr>
+<Pos l="63" expanded="yes" c="31" s="3"/>
+<Pos l="63" c="16" s="10"/>
+</Attr>
+<Id value="xx" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:6:3:2:1:3:1:1:1:1:1" typref="2701647786">
+<Attr>
+<Pos l="63" expanded="yes" c="28" s="2"/>
+<Pos l="63" c="16" s="10"/>
+</Attr>
+</Id>
+<Binary_Exp typref="2701647786" op="-">
+<Attr>
+<Pos l="63" expanded="yes" c="38" s="1"/>
+<Pos l="63" c="16" s="10"/>
+</Attr>
+<Id value="yy" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:6:3:2:1:3:1:1:1:1:2:1" typref="2701647786">
+<Attr>
+<Pos l="63" expanded="yes" c="36" s="2"/>
+<Pos l="63" c="16" s="10"/>
+</Attr>
+</Id>
+<Integer_Literal value="1" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:6:3:2:1:3:1:1:1:1:2:2" typref="2701647786">
+<Attr>
+<Pos l="63" expanded="yes" c="39" s="1"/>
+<Pos l="63" c="16" s="10"/>
+</Attr>
+</Integer_Literal>
+</Binary_Exp>
+</Binary_Exp>
+<Id value="maze" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:6:3:2:1:3:1:1:1:2" typref="103245008">
+<Attr>
+<Pos l="17" expanded="yes" c="41" s="4"/>
+<Pos l="63" c="16" s="10"/>
+</Attr>
+</Id>
+</Exp_Comparison>
+<Nary_Pred op="&amp;">
+<Nary_Pred op="&amp;"/>
+</Nary_Pred>
+</Binary_Pred>
+<Binary_Pred op="=&gt;">
+<Unary_Pred op="not">
+<Exp_Comparison op="/:">
+<Attr>
+<Pos l="17" expanded="yes" c="38" s="2"/>
+<Pos l="63" c="16" s="10"/>
+</Attr>
+<Binary_Exp typref="3672872563" op="|-&gt;">
+<Attr>
+<Pos l="63" expanded="yes" c="31" s="3"/>
+<Pos l="63" c="16" s="10"/>
+</Attr>
+<Id value="xx" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:6:3:2:1:3:1:1:1:1:1" typref="2701647786">
+<Attr>
+<Pos l="63" expanded="yes" c="28" s="2"/>
+<Pos l="63" c="16" s="10"/>
+</Attr>
+</Id>
+<Binary_Exp typref="2701647786" op="-">
+<Attr>
+<Pos l="63" expanded="yes" c="38" s="1"/>
+<Pos l="63" c="16" s="10"/>
+</Attr>
+<Id value="yy" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:6:3:2:1:3:1:1:1:1:2:1" typref="2701647786">
+<Attr>
+<Pos l="63" expanded="yes" c="36" s="2"/>
+<Pos l="63" c="16" s="10"/>
+</Attr>
+</Id>
+<Integer_Literal value="1" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:6:3:2:1:3:1:1:1:1:2:2" typref="2701647786">
+<Attr>
+<Pos l="63" expanded="yes" c="39" s="1"/>
+<Pos l="63" c="16" s="10"/>
+</Attr>
+</Integer_Literal>
+</Binary_Exp>
+</Binary_Exp>
+<Id value="maze" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:6:3:2:1:3:1:1:1:2" typref="103245008">
+<Attr>
+<Pos l="17" expanded="yes" c="41" s="4"/>
+<Pos l="63" c="16" s="10"/>
+</Attr>
+</Id>
+</Exp_Comparison>
+</Unary_Pred>
+<Nary_Pred op="&amp;">
+<Nary_Pred op="&amp;">
+<Nary_Pred op="&amp;">
+<Nary_Pred op="&amp;">
+<Nary_Pred op="&amp;"/>
+<Binary_Pred op="&amp;">
+<Nary_Pred op="&amp;"/>
+<Nary_Pred op="&amp;"/>
+</Binary_Pred>
+<Exp_Comparison op=":">
+<Id value="route" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:6:3:2:1:3:1:3:1:1:2:1:1" typref="1905100487">
+<Attr>
+<Pos l="67" c="24" s="5"/>
+</Attr>
+</Id>
+<Unary_Exp op="seq">
+<Unary_Exp op="ran">
+<Id value="route" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:6:3:2:1:3:1:3:1:1:2:1:1" typref="1905100487">
+<Attr>
+<Pos l="67" c="24" s="5"/>
+</Attr>
+</Id>
+</Unary_Exp>
+</Unary_Exp>
+</Exp_Comparison>
+</Nary_Pred>
+</Nary_Pred>
+<Nary_Pred op="&amp;">
+<Binary_Pred op="&amp;">
+<Nary_Pred op="&amp;"/>
+<Nary_Pred op="&amp;"/>
+</Binary_Pred>
+<Nary_Pred op="&amp;"/>
+</Nary_Pred>
+</Nary_Pred>
+</Nary_Pred>
+</Binary_Pred>
+</Nary_Pred>
+</Nary_Pred>
+</Binary_Pred>
+</Nary_Pred>
+</Nary_Pred>
+</Tag>
+</Goal>
+</Proof_Obligation>
+<Proof_Obligation>
+<Comment>Operations dans une machine abstraite</Comment>
+<Tag>WellDefinedness_Precondition_MoveEast</Tag>
+<Tag>INVARIANT</Tag>
+<Definition name="B definitions"/>
+<Definition name="ctx"/>
+<Definition name="cst"/>
+<Definition name="lprp"/>
+<Definition name="inprp"/>
+<Definition name="inext"/>
+<Definition name="seext"/>
+<Definition name="inv"/>
+<Definition name="ass"/>
+<Goal>
+<Tag goalTag="Well definedness">
+<Nary_Pred op="&amp;"/>
+</Tag>
+</Goal>
+</Proof_Obligation>
+<Proof_Obligation>
+<Comment>Operations dans une machine abstraite</Comment>
+<Tag>WellDefinedness_MoveEast</Tag>
+<Tag>INVARIANT</Tag>
+<Definition name="B definitions"/>
+<Definition name="ctx"/>
+<Definition name="cst"/>
+<Definition name="lprp"/>
+<Definition name="inprp"/>
+<Definition name="inext"/>
+<Definition name="seext"/>
+<Definition name="inv"/>
+<Definition name="ass"/>
+<Hypothesis/>
+<Goal>
+<Tag goalTag="Well definedness">
+<Nary_Pred op="&amp;">
+<Nary_Pred op="&amp;">
+<Binary_Pred op="&amp;">
+<Binary_Pred op="&amp;">
+<Binary_Pred op="&amp;">
+<Nary_Pred op="&amp;"/>
+<Nary_Pred op="&amp;"/>
+</Binary_Pred>
+<Nary_Pred op="&amp;"/>
+</Binary_Pred>
+<Nary_Pred op="&amp;"/>
+</Binary_Pred>
+<Binary_Pred op="=&gt;">
+<Exp_Comparison op=":">
+<Attr>
+<Pos l="16" expanded="yes" c="35" s="1"/>
+<Pos l="76" c="13" s="6"/>
+</Attr>
+<Binary_Exp op="|-&gt;">
+<Binary_Exp typref="2701647786" op="+">
+<Attr>
+<Pos l="76" expanded="yes" c="23" s="1"/>
+<Pos l="76" c="13" s="6"/>
+</Attr>
+<Id value="xx" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:6:4:2:1:1:1:1:1:1" typref="2701647786">
+<Attr>
+<Pos l="76" expanded="yes" c="21" s="2"/>
+<Pos l="76" c="13" s="6"/>
+</Attr>
+</Id>
+<Integer_Literal value="1" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:6:4:2:1:1:1:1:1:2" typref="2701647786">
+<Attr>
+<Pos l="76" expanded="yes" c="24" s="1"/>
+<Pos l="76" c="13" s="6"/>
+</Attr>
+</Integer_Literal>
+</Binary_Exp>
+<Id value="yy" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:6:4:2:1:1:1:1:2" typref="2701647786">
+<Attr>
+<Pos l="76" expanded="yes" c="31" s="2"/>
+<Pos l="76" c="13" s="6"/>
+</Attr>
+</Id>
+</Binary_Exp>
+<Id value="walls" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:6:4:2:1:1:1:2" typref="103245008">
+<Attr>
+<Pos l="16" expanded="yes" c="37" s="5"/>
+<Pos l="76" c="13" s="6"/>
+</Attr>
+</Id>
+</Exp_Comparison>
+<Nary_Pred op="&amp;">
+<Nary_Pred op="&amp;"/>
+</Nary_Pred>
+</Binary_Pred>
+<Binary_Pred op="=&gt;">
+<Unary_Pred op="not">
+<Exp_Comparison op=":">
+<Attr>
+<Pos l="16" expanded="yes" c="35" s="1"/>
+<Pos l="76" c="13" s="6"/>
+</Attr>
+<Binary_Exp op="|-&gt;">
+<Binary_Exp typref="2701647786" op="+">
+<Attr>
+<Pos l="76" expanded="yes" c="23" s="1"/>
+<Pos l="76" c="13" s="6"/>
+</Attr>
+<Id value="xx" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:6:4:2:1:1:1:1:1:1" typref="2701647786">
+<Attr>
+<Pos l="76" expanded="yes" c="21" s="2"/>
+<Pos l="76" c="13" s="6"/>
+</Attr>
+</Id>
+<Integer_Literal value="1" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:6:4:2:1:1:1:1:1:2" typref="2701647786">
+<Attr>
+<Pos l="76" expanded="yes" c="24" s="1"/>
+<Pos l="76" c="13" s="6"/>
+</Attr>
+</Integer_Literal>
+</Binary_Exp>
+<Id value="yy" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:6:4:2:1:1:1:1:2" typref="2701647786">
+<Attr>
+<Pos l="76" expanded="yes" c="31" s="2"/>
+<Pos l="76" c="13" s="6"/>
+</Attr>
+</Id>
+</Binary_Exp>
+<Id value="walls" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:6:4:2:1:1:1:2" typref="103245008">
+<Attr>
+<Pos l="16" expanded="yes" c="37" s="5"/>
+<Pos l="76" c="13" s="6"/>
+</Attr>
+</Id>
+</Exp_Comparison>
+</Unary_Pred>
+<Nary_Pred op="&amp;">
+<Nary_Pred op="&amp;">
+<Binary_Pred op="&amp;">
+<Binary_Pred op="&amp;">
+<Binary_Pred op="&amp;">
+<Nary_Pred op="&amp;"/>
+<Nary_Pred op="&amp;"/>
+</Binary_Pred>
+<Nary_Pred op="&amp;"/>
+</Binary_Pred>
+<Nary_Pred op="&amp;"/>
+</Binary_Pred>
+<Binary_Pred op="=&gt;">
+<Exp_Comparison op="/:">
+<Attr>
+<Pos l="17" expanded="yes" c="38" s="2"/>
+<Pos l="79" c="17" s="10"/>
+</Attr>
+<Binary_Exp typref="3672872563" op="|-&gt;">
+<Attr>
+<Pos l="79" expanded="yes" c="34" s="3"/>
+<Pos l="79" c="17" s="10"/>
+</Attr>
+<Binary_Exp typref="2701647786" op="+">
+<Attr>
+<Pos l="79" expanded="yes" c="31" s="1"/>
+<Pos l="79" c="17" s="10"/>
+</Attr>
+<Id value="xx" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:6:4:2:1:3:1:1:1:1:1:1" typref="2701647786">
+<Attr>
+<Pos l="79" expanded="yes" c="29" s="2"/>
+<Pos l="79" c="17" s="10"/>
+</Attr>
+</Id>
+<Integer_Literal value="1" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:6:4:2:1:3:1:1:1:1:1:2" typref="2701647786">
+<Attr>
+<Pos l="79" expanded="yes" c="32" s="1"/>
+<Pos l="79" c="17" s="10"/>
+</Attr>
+</Integer_Literal>
+</Binary_Exp>
+<Id value="yy" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:6:4:2:1:3:1:1:1:1:2" typref="2701647786">
+<Attr>
+<Pos l="79" expanded="yes" c="39" s="2"/>
+<Pos l="79" c="17" s="10"/>
+</Attr>
+</Id>
+</Binary_Exp>
+<Id value="maze" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:6:4:2:1:3:1:1:1:2" typref="103245008">
+<Attr>
+<Pos l="17" expanded="yes" c="41" s="4"/>
+<Pos l="79" c="17" s="10"/>
+</Attr>
+</Id>
+</Exp_Comparison>
+<Nary_Pred op="&amp;">
+<Nary_Pred op="&amp;"/>
+</Nary_Pred>
+</Binary_Pred>
+<Binary_Pred op="=&gt;">
+<Unary_Pred op="not">
+<Exp_Comparison op="/:">
+<Attr>
+<Pos l="17" expanded="yes" c="38" s="2"/>
+<Pos l="79" c="17" s="10"/>
+</Attr>
+<Binary_Exp typref="3672872563" op="|-&gt;">
+<Attr>
+<Pos l="79" expanded="yes" c="34" s="3"/>
+<Pos l="79" c="17" s="10"/>
+</Attr>
+<Binary_Exp typref="2701647786" op="+">
+<Attr>
+<Pos l="79" expanded="yes" c="31" s="1"/>
+<Pos l="79" c="17" s="10"/>
+</Attr>
+<Id value="xx" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:6:4:2:1:3:1:1:1:1:1:1" typref="2701647786">
+<Attr>
+<Pos l="79" expanded="yes" c="29" s="2"/>
+<Pos l="79" c="17" s="10"/>
+</Attr>
+</Id>
+<Integer_Literal value="1" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:6:4:2:1:3:1:1:1:1:1:2" typref="2701647786">
+<Attr>
+<Pos l="79" expanded="yes" c="32" s="1"/>
+<Pos l="79" c="17" s="10"/>
+</Attr>
+</Integer_Literal>
+</Binary_Exp>
+<Id value="yy" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:6:4:2:1:3:1:1:1:1:2" typref="2701647786">
+<Attr>
+<Pos l="79" expanded="yes" c="39" s="2"/>
+<Pos l="79" c="17" s="10"/>
+</Attr>
+</Id>
+</Binary_Exp>
+<Id value="maze" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:6:4:2:1:3:1:1:1:2" typref="103245008">
+<Attr>
+<Pos l="17" expanded="yes" c="41" s="4"/>
+<Pos l="79" c="17" s="10"/>
+</Attr>
+</Id>
+</Exp_Comparison>
+</Unary_Pred>
+<Nary_Pred op="&amp;">
+<Nary_Pred op="&amp;">
+<Nary_Pred op="&amp;">
+<Nary_Pred op="&amp;">
+<Nary_Pred op="&amp;"/>
+<Binary_Pred op="&amp;">
+<Nary_Pred op="&amp;"/>
+<Nary_Pred op="&amp;"/>
+</Binary_Pred>
+<Exp_Comparison op=":">
+<Id value="route" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:6:4:2:1:3:1:3:1:1:2:1:1" typref="1905100487">
+<Attr>
+<Pos l="83" c="24" s="5"/>
+</Attr>
+</Id>
+<Unary_Exp op="seq">
+<Unary_Exp op="ran">
+<Id value="route" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:6:4:2:1:3:1:3:1:1:2:1:1" typref="1905100487">
+<Attr>
+<Pos l="83" c="24" s="5"/>
+</Attr>
+</Id>
+</Unary_Exp>
+</Unary_Exp>
+</Exp_Comparison>
+</Nary_Pred>
+</Nary_Pred>
+<Nary_Pred op="&amp;">
+<Binary_Pred op="&amp;">
+<Nary_Pred op="&amp;"/>
+<Nary_Pred op="&amp;"/>
+</Binary_Pred>
+<Nary_Pred op="&amp;"/>
+</Nary_Pred>
+</Nary_Pred>
+</Nary_Pred>
+</Binary_Pred>
+</Nary_Pred>
+</Nary_Pred>
+</Binary_Pred>
+</Nary_Pred>
+</Nary_Pred>
+</Tag>
+</Goal>
+</Proof_Obligation>
+<Proof_Obligation>
+<Comment>Operations dans une machine abstraite</Comment>
+<Tag>WellDefinedness_Precondition_MoveWest</Tag>
+<Tag>INVARIANT</Tag>
+<Definition name="B definitions"/>
+<Definition name="ctx"/>
+<Definition name="cst"/>
+<Definition name="lprp"/>
+<Definition name="inprp"/>
+<Definition name="inext"/>
+<Definition name="seext"/>
+<Definition name="inv"/>
+<Definition name="ass"/>
+<Goal>
+<Tag goalTag="Well definedness">
+<Nary_Pred op="&amp;"/>
+</Tag>
+</Goal>
+</Proof_Obligation>
+<Proof_Obligation>
+<Comment>Operations dans une machine abstraite</Comment>
+<Tag>WellDefinedness_MoveWest</Tag>
+<Tag>INVARIANT</Tag>
+<Definition name="B definitions"/>
+<Definition name="ctx"/>
+<Definition name="cst"/>
+<Definition name="lprp"/>
+<Definition name="inprp"/>
+<Definition name="inext"/>
+<Definition name="seext"/>
+<Definition name="inv"/>
+<Definition name="ass"/>
+<Hypothesis/>
+<Goal>
+<Tag goalTag="Well definedness">
+<Nary_Pred op="&amp;">
+<Nary_Pred op="&amp;">
+<Binary_Pred op="&amp;">
+<Binary_Pred op="&amp;">
+<Binary_Pred op="&amp;">
+<Nary_Pred op="&amp;"/>
+<Nary_Pred op="&amp;"/>
+</Binary_Pred>
+<Nary_Pred op="&amp;"/>
+</Binary_Pred>
+<Nary_Pred op="&amp;"/>
+</Binary_Pred>
+<Binary_Pred op="=&gt;">
+<Exp_Comparison op=":">
+<Attr>
+<Pos l="16" expanded="yes" c="35" s="1"/>
+<Pos l="92" c="14" s="6"/>
+</Attr>
+<Binary_Exp op="|-&gt;">
+<Binary_Exp typref="2701647786" op="-">
+<Attr>
+<Pos l="92" expanded="yes" c="24" s="1"/>
+<Pos l="92" c="14" s="6"/>
+</Attr>
+<Id value="xx" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:6:5:2:1:1:1:1:1:1" typref="2701647786">
+<Attr>
+<Pos l="92" expanded="yes" c="22" s="2"/>
+<Pos l="92" c="14" s="6"/>
+</Attr>
+</Id>
+<Integer_Literal value="1" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:6:5:2:1:1:1:1:1:2" typref="2701647786">
+<Attr>
+<Pos l="92" expanded="yes" c="25" s="1"/>
+<Pos l="92" c="14" s="6"/>
+</Attr>
+</Integer_Literal>
+</Binary_Exp>
+<Id value="yy" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:6:5:2:1:1:1:1:2" typref="2701647786">
+<Attr>
+<Pos l="92" expanded="yes" c="32" s="2"/>
+<Pos l="92" c="14" s="6"/>
+</Attr>
+</Id>
+</Binary_Exp>
+<Id value="walls" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:6:5:2:1:1:1:2" typref="103245008">
+<Attr>
+<Pos l="16" expanded="yes" c="37" s="5"/>
+<Pos l="92" c="14" s="6"/>
+</Attr>
+</Id>
+</Exp_Comparison>
+<Nary_Pred op="&amp;">
+<Nary_Pred op="&amp;"/>
+</Nary_Pred>
+</Binary_Pred>
+<Binary_Pred op="=&gt;">
+<Unary_Pred op="not">
+<Exp_Comparison op=":">
+<Attr>
+<Pos l="16" expanded="yes" c="35" s="1"/>
+<Pos l="92" c="14" s="6"/>
+</Attr>
+<Binary_Exp op="|-&gt;">
+<Binary_Exp typref="2701647786" op="-">
+<Attr>
+<Pos l="92" expanded="yes" c="24" s="1"/>
+<Pos l="92" c="14" s="6"/>
+</Attr>
+<Id value="xx" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:6:5:2:1:1:1:1:1:1" typref="2701647786">
+<Attr>
+<Pos l="92" expanded="yes" c="22" s="2"/>
+<Pos l="92" c="14" s="6"/>
+</Attr>
+</Id>
+<Integer_Literal value="1" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:6:5:2:1:1:1:1:1:2" typref="2701647786">
+<Attr>
+<Pos l="92" expanded="yes" c="25" s="1"/>
+<Pos l="92" c="14" s="6"/>
+</Attr>
+</Integer_Literal>
+</Binary_Exp>
+<Id value="yy" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:6:5:2:1:1:1:1:2" typref="2701647786">
+<Attr>
+<Pos l="92" expanded="yes" c="32" s="2"/>
+<Pos l="92" c="14" s="6"/>
+</Attr>
+</Id>
+</Binary_Exp>
+<Id value="walls" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:6:5:2:1:1:1:2" typref="103245008">
+<Attr>
+<Pos l="16" expanded="yes" c="37" s="5"/>
+<Pos l="92" c="14" s="6"/>
+</Attr>
+</Id>
+</Exp_Comparison>
+</Unary_Pred>
+<Nary_Pred op="&amp;">
+<Nary_Pred op="&amp;">
+<Binary_Pred op="&amp;">
+<Binary_Pred op="&amp;">
+<Binary_Pred op="&amp;">
+<Nary_Pred op="&amp;"/>
+<Nary_Pred op="&amp;"/>
+</Binary_Pred>
+<Nary_Pred op="&amp;"/>
+</Binary_Pred>
+<Nary_Pred op="&amp;"/>
+</Binary_Pred>
+<Binary_Pred op="=&gt;">
+<Exp_Comparison op="/:">
+<Attr>
+<Pos l="17" expanded="yes" c="38" s="2"/>
+<Pos l="95" c="17" s="10"/>
+</Attr>
+<Binary_Exp typref="3672872563" op="|-&gt;">
+<Attr>
+<Pos l="95" expanded="yes" c="35" s="3"/>
+<Pos l="95" c="17" s="10"/>
+</Attr>
+<Binary_Exp typref="2701647786" op="-">
+<Attr>
+<Pos l="95" expanded="yes" c="32" s="1"/>
+<Pos l="95" c="17" s="10"/>
+</Attr>
+<Id value="xx" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:6:5:2:1:3:1:1:1:1:1:1" typref="2701647786">
+<Attr>
+<Pos l="95" expanded="yes" c="30" s="2"/>
+<Pos l="95" c="17" s="10"/>
+</Attr>
+</Id>
+<Integer_Literal value="1" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:6:5:2:1:3:1:1:1:1:1:2" typref="2701647786">
+<Attr>
+<Pos l="95" expanded="yes" c="33" s="1"/>
+<Pos l="95" c="17" s="10"/>
+</Attr>
+</Integer_Literal>
+</Binary_Exp>
+<Id value="yy" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:6:5:2:1:3:1:1:1:1:2" typref="2701647786">
+<Attr>
+<Pos l="95" expanded="yes" c="40" s="2"/>
+<Pos l="95" c="17" s="10"/>
+</Attr>
+</Id>
+</Binary_Exp>
+<Id value="maze" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:6:5:2:1:3:1:1:1:2" typref="103245008">
+<Attr>
+<Pos l="17" expanded="yes" c="41" s="4"/>
+<Pos l="95" c="17" s="10"/>
+</Attr>
+</Id>
+</Exp_Comparison>
+<Nary_Pred op="&amp;">
+<Nary_Pred op="&amp;"/>
+</Nary_Pred>
+</Binary_Pred>
+<Binary_Pred op="=&gt;">
+<Unary_Pred op="not">
+<Exp_Comparison op="/:">
+<Attr>
+<Pos l="17" expanded="yes" c="38" s="2"/>
+<Pos l="95" c="17" s="10"/>
+</Attr>
+<Binary_Exp typref="3672872563" op="|-&gt;">
+<Attr>
+<Pos l="95" expanded="yes" c="35" s="3"/>
+<Pos l="95" c="17" s="10"/>
+</Attr>
+<Binary_Exp typref="2701647786" op="-">
+<Attr>
+<Pos l="95" expanded="yes" c="32" s="1"/>
+<Pos l="95" c="17" s="10"/>
+</Attr>
+<Id value="xx" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:6:5:2:1:3:1:1:1:1:1:1" typref="2701647786">
+<Attr>
+<Pos l="95" expanded="yes" c="30" s="2"/>
+<Pos l="95" c="17" s="10"/>
+</Attr>
+</Id>
+<Integer_Literal value="1" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:6:5:2:1:3:1:1:1:1:1:2" typref="2701647786">
+<Attr>
+<Pos l="95" expanded="yes" c="33" s="1"/>
+<Pos l="95" c="17" s="10"/>
+</Attr>
+</Integer_Literal>
+</Binary_Exp>
+<Id value="yy" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:6:5:2:1:3:1:1:1:1:2" typref="2701647786">
+<Attr>
+<Pos l="95" expanded="yes" c="40" s="2"/>
+<Pos l="95" c="17" s="10"/>
+</Attr>
+</Id>
+</Binary_Exp>
+<Id value="maze" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:6:5:2:1:3:1:1:1:2" typref="103245008">
+<Attr>
+<Pos l="17" expanded="yes" c="41" s="4"/>
+<Pos l="95" c="17" s="10"/>
+</Attr>
+</Id>
+</Exp_Comparison>
+</Unary_Pred>
+<Nary_Pred op="&amp;">
+<Nary_Pred op="&amp;">
+<Nary_Pred op="&amp;">
+<Nary_Pred op="&amp;">
+<Nary_Pred op="&amp;"/>
+<Binary_Pred op="&amp;">
+<Nary_Pred op="&amp;"/>
+<Nary_Pred op="&amp;"/>
+</Binary_Pred>
+<Exp_Comparison op=":">
+<Id value="route" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:6:5:2:1:3:1:3:1:1:2:1:1" typref="1905100487">
+<Attr>
+<Pos l="99" c="24" s="5"/>
+</Attr>
+</Id>
+<Unary_Exp op="seq">
+<Unary_Exp op="ran">
+<Id value="route" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:6:5:2:1:3:1:3:1:1:2:1:1" typref="1905100487">
+<Attr>
+<Pos l="99" c="24" s="5"/>
+</Attr>
+</Id>
+</Unary_Exp>
+</Unary_Exp>
+</Exp_Comparison>
+</Nary_Pred>
+</Nary_Pred>
+<Nary_Pred op="&amp;">
+<Binary_Pred op="&amp;">
+<Nary_Pred op="&amp;"/>
+<Nary_Pred op="&amp;"/>
+</Binary_Pred>
+<Nary_Pred op="&amp;"/>
+</Nary_Pred>
+</Nary_Pred>
+</Nary_Pred>
+</Binary_Pred>
+</Nary_Pred>
+</Nary_Pred>
+</Binary_Pred>
+</Nary_Pred>
+</Nary_Pred>
+</Tag>
+</Goal>
+</Proof_Obligation>
+<Proof_Obligation>
+<Comment>Operations dans une machine abstraite</Comment>
+<Tag>WellDefinedness_Precondition_Teleport</Tag>
+<Tag>INVARIANT</Tag>
+<Definition name="B definitions"/>
+<Definition name="ctx"/>
+<Definition name="cst"/>
+<Definition name="lprp"/>
+<Definition name="inprp"/>
+<Definition name="inext"/>
+<Definition name="seext"/>
+<Definition name="inv"/>
+<Definition name="ass"/>
+<Goal>
+<Tag goalTag="Well definedness">
+<Nary_Pred op="&amp;">
+<Nary_Pred op="&amp;">
+<Binary_Pred op="&amp;">
+<Nary_Pred op="&amp;"/>
+<Nary_Pred op="&amp;"/>
+</Binary_Pred>
+<Binary_Pred op="=&gt;">
+<Exp_Comparison op=":">
+<Attr>
+<Pos l="107" c="14" s="1"/>
+</Attr>
+<Id value="xpos" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:6:6:3:1:1:1" typref="2701647786">
+<Attr>
+<Pos l="107" c="9" s="4"/>
+</Attr>
+</Id>
+<Id value="NAT1" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:6:6:3:1:1:2" typref="3603043417">
+<Attr>
+<Pos l="107" c="16" s="4"/>
+</Attr>
+</Id>
+</Exp_Comparison>
+<Nary_Pred op="&amp;">
+<Binary_Pred op="&amp;">
+<Nary_Pred op="&amp;"/>
+<Nary_Pred op="&amp;"/>
+</Binary_Pred>
+<Binary_Pred op="=&gt;">
+<Exp_Comparison op=":">
+<Attr>
+<Pos l="107" c="28" s="1"/>
+</Attr>
+<Id value="ypos" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:6:6:3:1:2:1" typref="2701647786">
+<Attr>
+<Pos l="107" c="23" s="4"/>
+</Attr>
+</Id>
+<Id value="NAT1" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:6:6:3:1:2:2" typref="3603043417">
+<Attr>
+<Pos l="107" c="30" s="4"/>
+</Attr>
+</Id>
+</Exp_Comparison>
+<Nary_Pred op="&amp;">
+<Binary_Pred op="&amp;">
+<Nary_Pred op="&amp;"/>
+<Nary_Pred op="&amp;"/>
+</Binary_Pred>
+<Binary_Pred op="=&gt;">
+<Exp_Comparison op="&lt;=">
+<Attr>
+<Pos l="18" expanded="yes" c="38" s="2"/>
+<Pos l="107" c="37" s="8"/>
+</Attr>
+<Id value="xpos" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:6:6:3:1:3:1:1" typref="2701647786">
+<Attr>
+<Pos l="107" expanded="yes" c="46" s="4"/>
+<Pos l="107" c="37" s="8"/>
+</Attr>
+</Id>
+<Id value="width" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:6:6:3:1:3:1:2" typref="2701647786">
+<Attr>
+<Pos l="18" expanded="yes" c="41" s="5"/>
+<Pos l="107" c="37" s="8"/>
+</Attr>
+</Id>
+</Exp_Comparison>
+<Nary_Pred op="&amp;">
+<Binary_Pred op="&amp;">
+<Nary_Pred op="&amp;"/>
+<Nary_Pred op="&amp;"/>
+</Binary_Pred>
+</Nary_Pred>
+</Binary_Pred>
+</Nary_Pred>
+</Binary_Pred>
+</Nary_Pred>
+</Binary_Pred>
+</Nary_Pred>
+</Nary_Pred>
+</Tag>
+</Goal>
+</Proof_Obligation>
+<Proof_Obligation>
+<Comment>Operations dans une machine abstraite</Comment>
+<Tag>WellDefinedness_Teleport</Tag>
+<Tag>INVARIANT</Tag>
+<Definition name="B definitions"/>
+<Definition name="ctx"/>
+<Definition name="cst"/>
+<Definition name="lprp"/>
+<Definition name="inprp"/>
+<Definition name="inext"/>
+<Definition name="seext"/>
+<Definition name="inv"/>
+<Definition name="ass"/>
+<Hypothesis>
+<Nary_Pred op="&amp;">
+<Exp_Comparison op=":">
+<Attr>
+<Pos l="107" c="14" s="1"/>
+</Attr>
+<Id value="xpos" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:6:6:3:1:1:1" typref="2701647786">
+<Attr>
+<Pos l="107" c="9" s="4"/>
+</Attr>
+</Id>
+<Id value="NAT1" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:6:6:3:1:1:2" typref="3603043417">
+<Attr>
+<Pos l="107" c="16" s="4"/>
+</Attr>
+</Id>
+</Exp_Comparison>
+<Exp_Comparison op=":">
+<Attr>
+<Pos l="107" c="28" s="1"/>
+</Attr>
+<Id value="ypos" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:6:6:3:1:2:1" typref="2701647786">
+<Attr>
+<Pos l="107" c="23" s="4"/>
+</Attr>
+</Id>
+<Id value="NAT1" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:6:6:3:1:2:2" typref="3603043417">
+<Attr>
+<Pos l="107" c="30" s="4"/>
+</Attr>
+</Id>
+</Exp_Comparison>
+<Exp_Comparison op="&lt;=">
+<Attr>
+<Pos l="18" expanded="yes" c="38" s="2"/>
+<Pos l="107" c="37" s="8"/>
+</Attr>
+<Id value="xpos" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:6:6:3:1:3:1:1" typref="2701647786">
+<Attr>
+<Pos l="107" expanded="yes" c="46" s="4"/>
+<Pos l="107" c="37" s="8"/>
+</Attr>
+</Id>
+<Id value="width" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:6:6:3:1:3:1:2" typref="2701647786">
+<Attr>
+<Pos l="18" expanded="yes" c="41" s="5"/>
+<Pos l="107" c="37" s="8"/>
+</Attr>
+</Id>
+</Exp_Comparison>
+<Exp_Comparison op="&lt;=">
+<Attr>
+<Pos l="18" expanded="yes" c="54" s="2"/>
+<Pos l="107" c="37" s="8"/>
+</Attr>
+<Id value="ypos" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:6:6:3:1:3:2:1" typref="2701647786">
+<Attr>
+<Pos l="107" expanded="yes" c="52" s="4"/>
+<Pos l="107" c="37" s="8"/>
+</Attr>
+</Id>
+<Id value="height" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:6:6:3:1:3:2:2" typref="2701647786">
+<Attr>
+<Pos l="18" expanded="yes" c="57" s="6"/>
+<Pos l="107" c="37" s="8"/>
+</Attr>
+</Id>
+</Exp_Comparison>
+</Nary_Pred>
+</Hypothesis>
+<Goal>
+<Tag goalTag="Well definedness">
+<Nary_Pred op="&amp;">
+<Nary_Pred op="&amp;">
+<Nary_Pred op="&amp;">
+<Binary_Pred op="&amp;">
+<Nary_Pred op="&amp;">
+<Nary_Pred op="&amp;"/>
+<Exp_Comparison op=":">
+<Id value="route" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:6:6:4:1:1:1:1:1:1" typref="1905100487">
+<Attr>
+<Pos l="109" c="19" s="5"/>
+</Attr>
+</Id>
+<Unary_Exp op="seq">
+<Unary_Exp op="ran">
+<Id value="route" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:6:6:4:1:1:1:1:1:1" typref="1905100487">
+<Attr>
+<Pos l="109" c="19" s="5"/>
+</Attr>
+</Id>
+</Unary_Exp>
+</Unary_Exp>
+</Exp_Comparison>
+</Nary_Pred>
+<Nary_Pred op="&amp;"/>
+</Binary_Pred>
+<Binary_Pred op="=&gt;">
+<Exp_Comparison op="=">
+<Attr>
+<Pos l="109" c="26" s="1"/>
+</Attr>
+<Unary_Exp typref="2701647786" op="size">
+<Attr>
+<Pos l="109" c="14" s="4"/>
+</Attr>
+<Id value="route" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:6:6:4:1:1:1:1:1:1" typref="1905100487">
+<Attr>
+<Pos l="109" c="19" s="5"/>
+</Attr>
+</Id>
+</Unary_Exp>
+<Integer_Literal value="0" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:6:6:4:1:1:1:1:2" typref="2701647786">
+<Attr>
+<Pos l="109" c="28" s="1"/>
+</Attr>
+</Integer_Literal>
+</Exp_Comparison>
+<Nary_Pred op="&amp;">
+<Binary_Pred op="&amp;">
+<Binary_Pred op="&amp;">
+<Nary_Pred op="&amp;"/>
+<Nary_Pred op="&amp;"/>
+</Binary_Pred>
+<Nary_Pred op="&amp;"/>
+</Binary_Pred>
+</Nary_Pred>
+</Binary_Pred>
+</Nary_Pred>
+<Binary_Pred op="=&gt;">
+<Nary_Pred op="&amp;">
+<Exp_Comparison op="=">
+<Attr>
+<Pos l="109" c="26" s="1"/>
+</Attr>
+<Unary_Exp typref="2701647786" op="size">
+<Attr>
+<Pos l="109" c="14" s="4"/>
+</Attr>
+<Id value="route" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:6:6:4:1:1:1:1:1:1" typref="1905100487">
+<Attr>
+<Pos l="109" c="19" s="5"/>
+</Attr>
+</Id>
+</Unary_Exp>
+<Integer_Literal value="0" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:6:6:4:1:1:1:1:2" typref="2701647786">
+<Attr>
+<Pos l="109" c="28" s="1"/>
+</Attr>
+</Integer_Literal>
+</Exp_Comparison>
+<Exp_Comparison op="=">
+<Attr>
+<Pos l="109" c="51" s="1"/>
+</Attr>
+<Binary_Exp typref="3672872563" op="|-&gt;">
+<Attr>
+<Pos l="109" c="39" s="3"/>
+</Attr>
+<Id value="xpos" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:6:6:4:1:1:1:2:1:1" typref="2701647786">
+<Attr>
+<Pos l="109" c="34" s="4"/>
+</Attr>
+</Id>
+<Id value="ypos" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:6:6:4:1:1:1:2:1:2" typref="2701647786">
+<Attr>
+<Pos l="109" c="44" s="4"/>
+</Attr>
+</Id>
+</Binary_Exp>
+<Id value="exit" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:6:6:4:1:1:1:2:2" typref="3672872563">
+<Attr>
+<Pos l="109" c="53" s="4"/>
+</Attr>
+</Id>
+</Exp_Comparison>
+</Nary_Pred>
+<Nary_Pred op="&amp;">
+<Nary_Pred op="&amp;"/>
+</Nary_Pred>
+</Binary_Pred>
+<Binary_Pred op="=&gt;">
+<Unary_Pred op="not">
+<Nary_Pred op="&amp;">
+<Exp_Comparison op="=">
+<Attr>
+<Pos l="109" c="26" s="1"/>
+</Attr>
+<Unary_Exp typref="2701647786" op="size">
+<Attr>
+<Pos l="109" c="14" s="4"/>
+</Attr>
+<Id value="route" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:6:6:4:1:1:1:1:1:1" typref="1905100487">
+<Attr>
+<Pos l="109" c="19" s="5"/>
+</Attr>
+</Id>
+</Unary_Exp>
+<Integer_Literal value="0" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:6:6:4:1:1:1:1:2" typref="2701647786">
+<Attr>
+<Pos l="109" c="28" s="1"/>
+</Attr>
+</Integer_Literal>
+</Exp_Comparison>
+<Exp_Comparison op="=">
+<Attr>
+<Pos l="109" c="51" s="1"/>
+</Attr>
+<Binary_Exp typref="3672872563" op="|-&gt;">
+<Attr>
+<Pos l="109" c="39" s="3"/>
+</Attr>
+<Id value="xpos" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:6:6:4:1:1:1:2:1:1" typref="2701647786">
+<Attr>
+<Pos l="109" c="34" s="4"/>
+</Attr>
+</Id>
+<Id value="ypos" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:6:6:4:1:1:1:2:1:2" typref="2701647786">
+<Attr>
+<Pos l="109" c="44" s="4"/>
+</Attr>
+</Id>
+</Binary_Exp>
+<Id value="exit" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:6:6:4:1:1:1:2:2" typref="3672872563">
+<Attr>
+<Pos l="109" c="53" s="4"/>
+</Attr>
+</Id>
+</Exp_Comparison>
+</Nary_Pred>
+</Unary_Pred>
+<Nary_Pred op="&amp;">
+<Nary_Pred op="&amp;">
+<Binary_Pred op="&amp;">
+<Binary_Pred op="&amp;">
+<Nary_Pred op="&amp;"/>
+<Nary_Pred op="&amp;"/>
+</Binary_Pred>
+<Nary_Pred op="&amp;"/>
+</Binary_Pred>
+<Binary_Pred op="=&gt;">
+<Exp_Comparison op=":">
+<Attr>
+<Pos l="16" expanded="yes" c="35" s="1"/>
+<Pos l="112" c="17" s="6"/>
+</Attr>
+<Binary_Exp op="|-&gt;">
+<Id value="xpos" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:6:6:4:1:3:1:1:1:1:1" typref="2701647786">
+<Attr>
+<Pos l="112" expanded="yes" c="25" s="4"/>
+<Pos l="112" c="17" s="6"/>
+</Attr>
+</Id>
+<Id value="ypos" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:6:6:4:1:3:1:1:1:1:2" typref="2701647786">
+<Attr>
+<Pos l="112" expanded="yes" c="35" s="4"/>
+<Pos l="112" c="17" s="6"/>
+</Attr>
+</Id>
+</Binary_Exp>
+<Id value="walls" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:6:6:4:1:3:1:1:1:2" typref="103245008">
+<Attr>
+<Pos l="16" expanded="yes" c="37" s="5"/>
+<Pos l="112" c="17" s="6"/>
+</Attr>
+</Id>
+</Exp_Comparison>
+<Nary_Pred op="&amp;">
+<Nary_Pred op="&amp;"/>
+</Nary_Pred>
+</Binary_Pred>
+<Binary_Pred op="=&gt;">
+<Unary_Pred op="not">
+<Exp_Comparison op=":">
+<Attr>
+<Pos l="16" expanded="yes" c="35" s="1"/>
+<Pos l="112" c="17" s="6"/>
+</Attr>
+<Binary_Exp op="|-&gt;">
+<Id value="xpos" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:6:6:4:1:3:1:1:1:1:1" typref="2701647786">
+<Attr>
+<Pos l="112" expanded="yes" c="25" s="4"/>
+<Pos l="112" c="17" s="6"/>
+</Attr>
+</Id>
+<Id value="ypos" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:6:6:4:1:3:1:1:1:1:2" typref="2701647786">
+<Attr>
+<Pos l="112" expanded="yes" c="35" s="4"/>
+<Pos l="112" c="17" s="6"/>
+</Attr>
+</Id>
+</Binary_Exp>
+<Id value="walls" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:6:6:4:1:3:1:1:1:2" typref="103245008">
+<Attr>
+<Pos l="16" expanded="yes" c="37" s="5"/>
+<Pos l="112" c="17" s="6"/>
+</Attr>
+</Id>
+</Exp_Comparison>
+</Unary_Pred>
+<Nary_Pred op="&amp;">
+<Nary_Pred op="&amp;">
+<Binary_Pred op="&amp;">
+<Binary_Pred op="&amp;">
+<Nary_Pred op="&amp;"/>
+<Nary_Pred op="&amp;"/>
+</Binary_Pred>
+<Nary_Pred op="&amp;"/>
+</Binary_Pred>
+<Binary_Pred op="=&gt;">
+<Exp_Comparison op="/:">
+<Attr>
+<Pos l="17" expanded="yes" c="38" s="2"/>
+<Pos l="115" c="17" s="10"/>
+</Attr>
+<Binary_Exp typref="3672872563" op="|-&gt;">
+<Attr>
+<Pos l="115" expanded="yes" c="35" s="3"/>
+<Pos l="115" c="17" s="10"/>
+</Attr>
+<Id value="xpos" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:6:6:4:1:3:1:3:1:1:1:1:1" typref="2701647786">
+<Attr>
+<Pos l="115" expanded="yes" c="30" s="4"/>
+<Pos l="115" c="17" s="10"/>
+</Attr>
+</Id>
+<Id value="ypos" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:6:6:4:1:3:1:3:1:1:1:1:2" typref="2701647786">
+<Attr>
+<Pos l="115" expanded="yes" c="40" s="4"/>
+<Pos l="115" c="17" s="10"/>
+</Attr>
+</Id>
+</Binary_Exp>
+<Id value="maze" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:6:6:4:1:3:1:3:1:1:1:2" typref="103245008">
+<Attr>
+<Pos l="17" expanded="yes" c="41" s="4"/>
+<Pos l="115" c="17" s="10"/>
+</Attr>
+</Id>
+</Exp_Comparison>
+<Nary_Pred op="&amp;">
+<Nary_Pred op="&amp;"/>
+</Nary_Pred>
+</Binary_Pred>
+<Binary_Pred op="=&gt;">
+<Unary_Pred op="not">
+<Exp_Comparison op="/:">
+<Attr>
+<Pos l="17" expanded="yes" c="38" s="2"/>
+<Pos l="115" c="17" s="10"/>
+</Attr>
+<Binary_Exp typref="3672872563" op="|-&gt;">
+<Attr>
+<Pos l="115" expanded="yes" c="35" s="3"/>
+<Pos l="115" c="17" s="10"/>
+</Attr>
+<Id value="xpos" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:6:6:4:1:3:1:3:1:1:1:1:1" typref="2701647786">
+<Attr>
+<Pos l="115" expanded="yes" c="30" s="4"/>
+<Pos l="115" c="17" s="10"/>
+</Attr>
+</Id>
+<Id value="ypos" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:6:6:4:1:3:1:3:1:1:1:1:2" typref="2701647786">
+<Attr>
+<Pos l="115" expanded="yes" c="40" s="4"/>
+<Pos l="115" c="17" s="10"/>
+</Attr>
+</Id>
+</Binary_Exp>
+<Id value="maze" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:6:6:4:1:3:1:3:1:1:1:2" typref="103245008">
+<Attr>
+<Pos l="17" expanded="yes" c="41" s="4"/>
+<Pos l="115" c="17" s="10"/>
+</Attr>
+</Id>
+</Exp_Comparison>
+</Unary_Pred>
+<Nary_Pred op="&amp;">
+<Nary_Pred op="&amp;">
+<Nary_Pred op="&amp;">
+<Nary_Pred op="&amp;">
+<Nary_Pred op="&amp;"/>
+<Binary_Pred op="&amp;">
+<Nary_Pred op="&amp;"/>
+<Nary_Pred op="&amp;"/>
+</Binary_Pred>
+<Exp_Comparison op=":">
+<Id value="route" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:6:6:4:1:3:1:3:1:3:1:1:2:1:1" typref="1905100487">
+<Attr>
+<Pos l="119" c="24" s="5"/>
+</Attr>
+</Id>
+<Unary_Exp op="seq">
+<Unary_Exp op="ran">
+<Id value="route" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:6:6:4:1:3:1:3:1:3:1:1:2:1:1" typref="1905100487">
+<Attr>
+<Pos l="119" c="24" s="5"/>
+</Attr>
+</Id>
+</Unary_Exp>
+</Unary_Exp>
+</Exp_Comparison>
+</Nary_Pred>
+</Nary_Pred>
+<Nary_Pred op="&amp;">
+<Nary_Pred op="&amp;"/>
+<Nary_Pred op="&amp;"/>
+<Nary_Pred op="&amp;"/>
+</Nary_Pred>
+</Nary_Pred>
+</Nary_Pred>
+</Binary_Pred>
+</Nary_Pred>
+</Nary_Pred>
+</Binary_Pred>
+</Nary_Pred>
+</Nary_Pred>
+</Binary_Pred>
+</Nary_Pred>
+</Nary_Pred>
+</Tag>
+</Goal>
+</Proof_Obligation>
+<Proof_Obligation>
+<Comment>Operations dans une machine abstraite</Comment>
+<Tag>WellDefinedness_Precondition_foundExit</Tag>
+<Tag>INVARIANT</Tag>
+<Definition name="B definitions"/>
+<Definition name="ctx"/>
+<Definition name="cst"/>
+<Definition name="lprp"/>
+<Definition name="inprp"/>
+<Definition name="inext"/>
+<Definition name="seext"/>
+<Definition name="inv"/>
+<Definition name="ass"/>
+<Goal>
+<Tag goalTag="Well definedness">
+<Nary_Pred op="&amp;"/>
+</Tag>
+</Goal>
+</Proof_Obligation>
+<Proof_Obligation>
+<Comment>Operations dans une machine abstraite</Comment>
+<Tag>WellDefinedness_foundExit</Tag>
+<Tag>INVARIANT</Tag>
+<Definition name="B definitions"/>
+<Definition name="ctx"/>
+<Definition name="cst"/>
+<Definition name="lprp"/>
+<Definition name="inprp"/>
+<Definition name="inext"/>
+<Definition name="seext"/>
+<Definition name="inv"/>
+<Definition name="ass"/>
+<Hypothesis/>
+<Goal>
+<Tag goalTag="Well definedness">
+<Nary_Pred op="&amp;">
+<Nary_Pred op="&amp;">
+<Binary_Pred op="&amp;">
+<Binary_Pred op="&amp;">
+<Nary_Pred op="&amp;"/>
+<Nary_Pred op="&amp;"/>
+</Binary_Pred>
+<Nary_Pred op="&amp;"/>
+</Binary_Pred>
+<Binary_Pred op="=&gt;">
+<Exp_Comparison op="=">
+<Attr>
+<Pos l="128" c="25" s="1"/>
+</Attr>
+<Binary_Exp typref="3672872563" op="|-&gt;">
+<Attr>
+<Pos l="128" c="17" s="3"/>
+</Attr>
+<Id value="xx" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:6:7:2:1:1:1:1:1" typref="2701647786">
+<Attr>
+<Pos l="128" c="14" s="2"/>
+</Attr>
+</Id>
+<Id value="yy" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:6:7:2:1:1:1:1:2" typref="2701647786">
+<Attr>
+<Pos l="128" c="21" s="2"/>
+</Attr>
+</Id>
+</Binary_Exp>
+<Id value="exit" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:6:7:2:1:1:1:2" typref="3672872563">
+<Attr>
+<Pos l="128" c="27" s="4"/>
+</Attr>
+</Id>
+</Exp_Comparison>
+<Nary_Pred op="&amp;">
+<Nary_Pred op="&amp;"/>
+</Nary_Pred>
+</Binary_Pred>
+<Binary_Pred op="=&gt;">
+<Unary_Pred op="not">
+<Exp_Comparison op="=">
+<Attr>
+<Pos l="128" c="25" s="1"/>
+</Attr>
+<Binary_Exp typref="3672872563" op="|-&gt;">
+<Attr>
+<Pos l="128" c="17" s="3"/>
+</Attr>
+<Id value="xx" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:6:7:2:1:1:1:1:1" typref="2701647786">
+<Attr>
+<Pos l="128" c="14" s="2"/>
+</Attr>
+</Id>
+<Id value="yy" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:6:7:2:1:1:1:1:2" typref="2701647786">
+<Attr>
+<Pos l="128" c="21" s="2"/>
+</Attr>
+</Id>
+</Binary_Exp>
+<Id value="exit" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:6:7:2:1:1:1:2" typref="3672872563">
+<Attr>
+<Pos l="128" c="27" s="4"/>
+</Attr>
+</Id>
+</Exp_Comparison>
+</Unary_Pred>
+<Nary_Pred op="&amp;">
+<Nary_Pred op="&amp;">
+<Nary_Pred op="&amp;"/>
+</Nary_Pred>
+</Nary_Pred>
+</Binary_Pred>
+</Nary_Pred>
+</Nary_Pred>
+</Tag>
+</Goal>
+</Proof_Obligation>
+<Proof_Obligation>
+<Comment>Operations dans une machine abstraite</Comment>
+<Tag>WellDefinedness_Precondition_visitedSquare</Tag>
+<Tag>INVARIANT</Tag>
+<Definition name="B definitions"/>
+<Definition name="ctx"/>
+<Definition name="cst"/>
+<Definition name="lprp"/>
+<Definition name="inprp"/>
+<Definition name="inext"/>
+<Definition name="seext"/>
+<Definition name="inv"/>
+<Definition name="ass"/>
+<Goal>
+<Tag goalTag="Well definedness">
+<Nary_Pred op="&amp;">
+<Nary_Pred op="&amp;">
+<Binary_Pred op="&amp;">
+<Nary_Pred op="&amp;"/>
+<Nary_Pred op="&amp;"/>
+</Binary_Pred>
+<Binary_Pred op="=&gt;">
+<Exp_Comparison op=":">
+<Attr>
+<Pos l="140" c="14" s="1"/>
+</Attr>
+<Id value="xpos" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:6:8:3:1:1:1" typref="2701647786">
+<Attr>
+<Pos l="140" c="9" s="4"/>
+</Attr>
+</Id>
+<Id value="NAT1" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:6:8:3:1:1:2" typref="3603043417">
+<Attr>
+<Pos l="140" c="16" s="4"/>
+</Attr>
+</Id>
+</Exp_Comparison>
+<Nary_Pred op="&amp;">
+<Binary_Pred op="&amp;">
+<Nary_Pred op="&amp;"/>
+<Nary_Pred op="&amp;"/>
+</Binary_Pred>
+<Binary_Pred op="=&gt;">
+<Exp_Comparison op=":">
+<Attr>
+<Pos l="140" c="28" s="1"/>
+</Attr>
+<Id value="ypos" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:6:8:3:1:2:1" typref="2701647786">
+<Attr>
+<Pos l="140" c="23" s="4"/>
+</Attr>
+</Id>
+<Id value="NAT1" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:6:8:3:1:2:2" typref="3603043417">
+<Attr>
+<Pos l="140" c="30" s="4"/>
+</Attr>
+</Id>
+</Exp_Comparison>
+<Nary_Pred op="&amp;">
+<Binary_Pred op="&amp;">
+<Nary_Pred op="&amp;"/>
+<Nary_Pred op="&amp;"/>
+</Binary_Pred>
+<Binary_Pred op="=&gt;">
+<Exp_Comparison op="&lt;=">
+<Attr>
+<Pos l="18" expanded="yes" c="38" s="2"/>
+<Pos l="140" c="37" s="8"/>
+</Attr>
+<Id value="xpos" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:6:8:3:1:3:1:1" typref="2701647786">
+<Attr>
+<Pos l="140" expanded="yes" c="46" s="4"/>
+<Pos l="140" c="37" s="8"/>
+</Attr>
+</Id>
+<Id value="width" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:6:8:3:1:3:1:2" typref="2701647786">
+<Attr>
+<Pos l="18" expanded="yes" c="41" s="5"/>
+<Pos l="140" c="37" s="8"/>
+</Attr>
+</Id>
+</Exp_Comparison>
+<Nary_Pred op="&amp;">
+<Binary_Pred op="&amp;">
+<Nary_Pred op="&amp;"/>
+<Nary_Pred op="&amp;"/>
+</Binary_Pred>
+</Nary_Pred>
+</Binary_Pred>
+</Nary_Pred>
+</Binary_Pred>
+</Nary_Pred>
+</Binary_Pred>
+</Nary_Pred>
+</Nary_Pred>
+</Tag>
+</Goal>
+</Proof_Obligation>
+<Proof_Obligation>
+<Comment>Operations dans une machine abstraite</Comment>
+<Tag>WellDefinedness_visitedSquare</Tag>
+<Tag>INVARIANT</Tag>
+<Definition name="B definitions"/>
+<Definition name="ctx"/>
+<Definition name="cst"/>
+<Definition name="lprp"/>
+<Definition name="inprp"/>
+<Definition name="inext"/>
+<Definition name="seext"/>
+<Definition name="inv"/>
+<Definition name="ass"/>
+<Hypothesis>
+<Nary_Pred op="&amp;">
+<Exp_Comparison op=":">
+<Attr>
+<Pos l="140" c="14" s="1"/>
+</Attr>
+<Id value="xpos" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:6:8:3:1:1:1" typref="2701647786">
+<Attr>
+<Pos l="140" c="9" s="4"/>
+</Attr>
+</Id>
+<Id value="NAT1" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:6:8:3:1:1:2" typref="3603043417">
+<Attr>
+<Pos l="140" c="16" s="4"/>
+</Attr>
+</Id>
+</Exp_Comparison>
+<Exp_Comparison op=":">
+<Attr>
+<Pos l="140" c="28" s="1"/>
+</Attr>
+<Id value="ypos" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:6:8:3:1:2:1" typref="2701647786">
+<Attr>
+<Pos l="140" c="23" s="4"/>
+</Attr>
+</Id>
+<Id value="NAT1" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:6:8:3:1:2:2" typref="3603043417">
+<Attr>
+<Pos l="140" c="30" s="4"/>
+</Attr>
+</Id>
+</Exp_Comparison>
+<Exp_Comparison op="&lt;=">
+<Attr>
+<Pos l="18" expanded="yes" c="38" s="2"/>
+<Pos l="140" c="37" s="8"/>
+</Attr>
+<Id value="xpos" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:6:8:3:1:3:1:1" typref="2701647786">
+<Attr>
+<Pos l="140" expanded="yes" c="46" s="4"/>
+<Pos l="140" c="37" s="8"/>
+</Attr>
+</Id>
+<Id value="width" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:6:8:3:1:3:1:2" typref="2701647786">
+<Attr>
+<Pos l="18" expanded="yes" c="41" s="5"/>
+<Pos l="140" c="37" s="8"/>
+</Attr>
+</Id>
+</Exp_Comparison>
+<Exp_Comparison op="&lt;=">
+<Attr>
+<Pos l="18" expanded="yes" c="54" s="2"/>
+<Pos l="140" c="37" s="8"/>
+</Attr>
+<Id value="ypos" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:6:8:3:1:3:2:1" typref="2701647786">
+<Attr>
+<Pos l="140" expanded="yes" c="52" s="4"/>
+<Pos l="140" c="37" s="8"/>
+</Attr>
+</Id>
+<Id value="height" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:6:8:3:1:3:2:2" typref="2701647786">
+<Attr>
+<Pos l="18" expanded="yes" c="57" s="6"/>
+<Pos l="140" c="37" s="8"/>
+</Attr>
+</Id>
+</Exp_Comparison>
+</Nary_Pred>
+</Hypothesis>
+<Goal>
+<Tag goalTag="Well definedness">
+<Nary_Pred op="&amp;">
+<Nary_Pred op="&amp;">
+<Binary_Pred op="&amp;">
+<Binary_Pred op="&amp;">
+<Nary_Pred op="&amp;"/>
+<Nary_Pred op="&amp;"/>
+</Binary_Pred>
+<Nary_Pred op="&amp;"/>
+</Binary_Pred>
+<Binary_Pred op="=&gt;">
+<Exp_Comparison op=":">
+<Attr>
+<Pos l="142" c="30" s="1"/>
+</Attr>
+<Binary_Exp typref="3672872563" op="|-&gt;">
+<Attr>
+<Pos l="142" c="19" s="3"/>
+</Attr>
+<Id value="xpos" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:6:8:4:1:1:1:1:1" typref="2701647786">
+<Attr>
+<Pos l="142" c="14" s="4"/>
+</Attr>
+</Id>
+<Id value="ypos" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:6:8:4:1:1:1:1:2" typref="2701647786">
+<Attr>
+<Pos l="142" c="24" s="4"/>
+</Attr>
+</Id>
+</Binary_Exp>
+<Unary_Exp typref="103245008" op="ran">
+<Attr>
+<Pos l="142" c="32" s="3"/>
+</Attr>
+<Id value="route" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:6:8:4:1:1:1:2:1" typref="1905100487">
+<Attr>
+<Pos l="142" c="36" s="5"/>
+</Attr>
+</Id>
+</Unary_Exp>
+</Exp_Comparison>
+<Nary_Pred op="&amp;">
+<Nary_Pred op="&amp;"/>
+</Nary_Pred>
+</Binary_Pred>
+<Binary_Pred op="=&gt;">
+<Unary_Pred op="not">
+<Exp_Comparison op=":">
+<Attr>
+<Pos l="142" c="30" s="1"/>
+</Attr>
+<Binary_Exp typref="3672872563" op="|-&gt;">
+<Attr>
+<Pos l="142" c="19" s="3"/>
+</Attr>
+<Id value="xpos" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:6:8:4:1:1:1:1:1" typref="2701647786">
+<Attr>
+<Pos l="142" c="14" s="4"/>
+</Attr>
+</Id>
+<Id value="ypos" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:6:8:4:1:1:1:1:2" typref="2701647786">
+<Attr>
+<Pos l="142" c="24" s="4"/>
+</Attr>
+</Id>
+</Binary_Exp>
+<Unary_Exp typref="103245008" op="ran">
+<Attr>
+<Pos l="142" c="32" s="3"/>
+</Attr>
+<Id value="route" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:6:8:4:1:1:1:2:1" typref="1905100487">
+<Attr>
+<Pos l="142" c="36" s="5"/>
+</Attr>
+</Id>
+</Unary_Exp>
+</Exp_Comparison>
+</Unary_Pred>
+<Nary_Pred op="&amp;">
+<Nary_Pred op="&amp;">
+<Nary_Pred op="&amp;"/>
+</Nary_Pred>
+</Nary_Pred>
+</Binary_Pred>
+</Nary_Pred>
+</Nary_Pred>
+</Tag>
+</Goal>
+</Proof_Obligation>
+<Proof_Obligation>
+<Comment>Operations dans une machine abstraite</Comment>
+<Tag>WellDefinedness_Precondition_robotsRoute</Tag>
+<Tag>INVARIANT</Tag>
+<Definition name="B definitions"/>
+<Definition name="ctx"/>
+<Definition name="cst"/>
+<Definition name="lprp"/>
+<Definition name="inprp"/>
+<Definition name="inext"/>
+<Definition name="seext"/>
+<Definition name="inv"/>
+<Definition name="ass"/>
+<Goal>
+<Tag goalTag="Well definedness">
+<Nary_Pred op="&amp;"/>
+</Tag>
+</Goal>
+</Proof_Obligation>
+<Proof_Obligation>
+<Comment>Operations dans une machine abstraite</Comment>
+<Tag>WellDefinedness_robotsRoute</Tag>
+<Tag>INVARIANT</Tag>
+<Definition name="B definitions"/>
+<Definition name="ctx"/>
+<Definition name="cst"/>
+<Definition name="lprp"/>
+<Definition name="inprp"/>
+<Definition name="inext"/>
+<Definition name="seext"/>
+<Definition name="inv"/>
+<Definition name="ass"/>
+<Hypothesis/>
+<Goal>
+<Tag goalTag="Well definedness">
+<Nary_Pred op="&amp;">
+<Nary_Pred op="&amp;">
+<Nary_Pred op="&amp;"/>
+</Nary_Pred>
+</Nary_Pred>
+</Tag>
+</Goal>
+</Proof_Obligation>
+<TypeInfos>
+<Type id="1949851095">
+<Unary_Exp op="POW">
+<Id value="STATES" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:7:1:1:1"/>
+</Unary_Exp>
+</Type>
+<Type id="1193619202">
+<Id value="STATES" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:7:2:1"/>
+</Type>
+<Type id="2701647786">
+<Id value="INTEGER" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:7:3:1"/>
+</Type>
+<Type id="1905100487">
+<Unary_Exp op="POW">
+<Binary_Exp op="*">
+<Id value="INTEGER" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:7:4:1:1:1"/>
+<Binary_Exp op="*">
+<Id value="INTEGER" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:7:4:1:1:2:1"/>
+<Id value="INTEGER" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:7:4:1:1:2:2"/>
+</Binary_Exp>
+</Binary_Exp>
+</Unary_Exp>
+</Type>
+<Type id="3603043417">
+<Unary_Exp op="POW">
+<Id value="INTEGER" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:7:5:1:1"/>
+</Unary_Exp>
+</Type>
+<Type id="1382780156">
+<Unary_Exp op="POW">
+<Unary_Exp op="POW">
+<Binary_Exp op="*">
+<Id value="INTEGER" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:7:6:1:1:1:1"/>
+<Binary_Exp op="*">
+<Id value="INTEGER" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:7:6:1:1:1:2:1"/>
+<Id value="INTEGER" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:7:6:1:1:1:2:2"/>
+</Binary_Exp>
+</Binary_Exp>
+</Unary_Exp>
+</Unary_Exp>
+</Type>
+<Type id="103245008">
+<Unary_Exp op="POW">
+<Binary_Exp op="*">
+<Id value="INTEGER" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:7:7:1:1:1"/>
+<Id value="INTEGER" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:7:7:1:1:2"/>
+</Binary_Exp>
+</Unary_Exp>
+</Type>
+<Type id="3672872563">
+<Binary_Exp op="*">
+<Id value="INTEGER" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:7:8:1:1"/>
+<Id value="INTEGER" tag="D:\Workspaces\B_Specifications\Robot_Maze_System\bdp\PPP.bxml:1:7:8:1:2"/>
+</Binary_Exp>
+</Type>
+<Type id="103245008">
+<Unary_Exp op="POW">
+<Binary_Exp op="*">
+<Id value="INTEGER" tag="D:/Workspaces/B_Specifications/Robot_Maze_System/bdp\PP.bxml:1:4:1:1:1:1"/>
+<Id value="INTEGER" tag="D:/Workspaces/B_Specifications/Robot_Maze_System/bdp\PP.bxml:1:4:1:1:1:2"/>
+</Binary_Exp>
+</Unary_Exp>
+</Type>
+<Type id="3672872563">
+<Binary_Exp op="*">
+<Id value="INTEGER" tag="D:/Workspaces/B_Specifications/Robot_Maze_System/bdp\PP.bxml:1:4:2:1:1"/>
+<Id value="INTEGER" tag="D:/Workspaces/B_Specifications/Robot_Maze_System/bdp\PP.bxml:1:4:2:1:2"/>
+</Binary_Exp>
+</Type>
+<Type id="2701647786">
+<Id value="INTEGER" tag="D:/Workspaces/B_Specifications/Robot_Maze_System/bdp\PP.bxml:1:4:3:1"/>
+</Type>
+<Type id="3083833907">
+<Unary_Exp op="POW">
+<Unary_Exp op="POW">
+<Binary_Exp op="*">
+<Id value="INTEGER" tag="D:/Workspaces/B_Specifications/Robot_Maze_System/bdp\PP.bxml:1:4:4:1:1:1:1"/>
+<Id value="INTEGER" tag="D:/Workspaces/B_Specifications/Robot_Maze_System/bdp\PP.bxml:1:4:4:1:1:1:2"/>
+</Binary_Exp>
+</Unary_Exp>
+</Unary_Exp>
+</Type>
+<Type id="3603043417">
+<Unary_Exp op="POW">
+<Id value="INTEGER" tag="D:/Workspaces/B_Specifications/Robot_Maze_System/bdp\PP.bxml:1:4:5:1:1"/>
+</Unary_Exp>
+</Type>
+</TypeInfos>
+</Proof_Obligations>
